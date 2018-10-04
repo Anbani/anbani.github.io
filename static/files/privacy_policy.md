@@ -6,7 +6,8 @@ The following Privacy Policy is written for both English and Georgian audiences.
 ანდროიდ აპლიკაციის "ქართული კლავიატურა ჻ Anbani.ge" ავტორია გიორგი გაჩეჩილაძე და ვრცელდება უფასოდ გუგლის მაღაზიის ქსელით. ამ გვერდზე აღწერილია  კონფიდენციალურობის პოლიტიკა და ის პირადი თუ გლობალური ინფორმაცია რომელსაც აპლიკაცია აგროვებს მათთვის ვინც გადაწყვეტს მომსახურებით სარგებლობას.
 
 ### ინფორმაციის შეგროვება და გამოყენება
-აპლიკაცია არ აგროვებს არანაირ პირად მაიდენტიფიცირებელ ინფორმაციას როგორიცაა სახელი, გვარი, ელფოსტა და ა.შ.
+აპლიკაცია არ აგროვებს არანაირ **პირად მაიდენტიფიცირებელ ინფორმაციას** როგორიცაა სახელი, გვარი, ელფოსტა და ა.შ.    
+აპლიკაცია არ აგროვებს არანაირ **სენსიტიურ ინფორმაციას** როგორიცაა მომხმარებლის მიერ აკრეფილი ტექსტი და ა.შ.
 
 ხარისხის გაუმჯობესების მიზნით აპლიკაცია აგროვებს შემდეგ სტატისტიკურ ინფორმაციას:
 - გლობალურ ინფორმაციას სერვისის გამოყენებისა შესახებ
@@ -45,7 +46,7 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 ### Information Collection and Use
 
-The application DOES NOT collect any personally identifiable information including but not limited to name, email and etc. 
+The application DOES NOT collect any **personally identifiable information** including but not limited to name, email and etc. The application DOES NOT collect any **sensitive information** such as user's type stream and etc. 
 
 The service does collect statistical information about the application usage and user's setting preferences (activated keyboards and layout theme color). Statistical information is provided by Google Analytics that identifies each user by unique IDs and no personally identifiable information is traceable.
 
