@@ -52,10 +52,6 @@ The service does collect statistical information about the application usage and
 
 The app does use third party services that may collect information used to identify you listed in Service Providers section. 
 
-### Log Data
-
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
-
 
 ### Service Providers
 
@@ -72,11 +68,6 @@ This Service uses the following third-party services to enhance the experience:
 - **Youtube** - for showing video instructions.
 - **Facebook** - for Like and Share button embedings.
 - **Google Analytics** - for tracking global app usage and gathering user's setting preferences (keyboards activated and layout theme color).
-
-
-### Security
-
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
 
 
 ### Changes to This Privacy Policy
