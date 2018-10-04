@@ -1,32 +1,32 @@
-# Georgian Keyboard (ქართული კლავიატურა) ჻ Anbani.ge Privacy Policy (კონფიდენციალურობის პოლიტიკა)
+# Georgian Keyboard ჻ Anbani.ge Privacy Policy
 The following Privacy Policy is written for both English and Georgian audiences. English version follows Georgian. 
-
+შემდეგი კონფიდენციალურობის პოლიტიკის დოკუმენტი დაწერილია ინგლისურ და ქართულენოვანი აუდიტორიისთვის. ინგლისური ვერსია ქართულის შემდეგ.  
 
 ## კონფიდენციალურობის პოლიტიკა 
-ანდროიდ აპლიკაციის "ქართული კლავიატურა ჻ Anbani.ge" ავტორია გიორგი გაჩეჩილაძე და ვრცელდება უფასოდ გუგლის მაღაზიის ქსელით. ამ გვერდზე აღწერილია  კონფიდენციალურობის პოლიტიკა და ის პირადი ინფორმაცია რომელსაც აპლიკაცია აგროვებს მათთვის ვინც გადაწყვეტს მომსახურებით სარგებლობას.
+ანდროიდ აპლიკაციის "ქართული კლავიატურა ჻ Anbani.ge" ავტორია გიორგი გაჩეჩილაძე და ვრცელდება უფასოდ გუგლის მაღაზიის ქსელით. ამ გვერდზე აღწერილია  კონფიდენციალურობის პოლიტიკა და ის პირადი თუ გლობალური ინფორმაცია რომელსაც აპლიკაცია აგროვებს მათთვის ვინც გადაწყვეტს მომსახურებით სარგებლობას.
 
-**ინფორმაციის შეგროვება და გამოყენება**
+### ინფორმაციის შეგროვება და გამოყენება
 ხარისხის გაუმჯობესების მიზნით აპლიკაცია აგროვებს:
 - გლობალურ ინფორმაციას სერვისის გამოყენებისა შესახებ
 - პირად ინფორმაციას მომხმარებლის პარამეტრების კონფიგურაციის შესახებ.
 
-გლობალური ინფორმაცია წარმოადგენს: არაპირადი სახის სტატისტიკური ინფორმაცია აპლიკაციის გამოყენების შესახებ (აქტიური მომხმარებლების რაოდენობა, ქვეყნების ჩამონათვალი, და ა.შ.) რომელსაც დეტალურად შეგიძლიათ გაეცნოთ https://analytics.google.com/ 
+გლობალური ინფორმაცია წარმოადგენს: არაპირადი სახის სტანდარტული სტატისტიკური ინფორმაცია აპლიკაციის გამოყენების შესახებ (აქტიური მომხმარებლების რაოდენობა, ქვეყნების ჩამონათვალი, და ა.შ.) რომელსაც დეტალურად შეგიძლიათ გაეცნოთ https://analytics.google.com/ 
 
-პირადი ინფორმაცია წარმოადგენს: გააქტიურებული კლავიატურების ნაკრებს და არჩეულ კლავიატურის იერრი. 
+პირადი ინფორმაცია წარმოადგენს: გააქტიურებული კლავიატურების ნაკრებს და არჩეული კლავიატურის იერი. 
 
 
-**მესამე მხარის სერვისის მომწოდებლები**
+### მესამე მხარის სერვისის მომწოდებლები
 აპლიკაციის გასაუმჯობესებლად გამოიყენება რიგი მესამე მხარის სერვისები რომლის სრული ჩამონათვალია:
 - **Youtube** - ვიდეო ინსტრუქციის საჩვენებლად.
 - **Facebook** - მოწონებისა და გაზიარების ღილაკებისთვის.
 - **Google Analytics** - გლობალური (აპლიკაციის მოხმარების სტატისტიკა და სხვ.) და პირადი სახის (გააქტიურებული კლავიატურები და იერი) ანალიტიკური ინფორმაციების მოსაპოვებლად.
 
-აღნიშნული მესამე მხარის სერვისები შესაძლოა აგროვებდნენ პირადი სახის ინფორმაციას თქვენს შესახებ სერვისის გასაუმჯობესებლად. კომპანიები ვალდებულნი არიან დაიცვან თქვენი ინფორმაცია და არ გაამხილონ არაავტორიზირებულ პირებთან. შესაბამისი კონფედენციალურობის პირობები შესაძლებელია იხილოთ მათ ვებსაიტებზე.   
+აღნიშნული მესამე მხარის კომპანიები შესაბამისი სერვისების გასაუმჯობესებლად შესაძლოა აგროვებდნენ პირადი სახის ინფორმაციას თქვენს შესახებ. კომპანიები ვალდებულნი არიან დაიცვან თქვენი ინფორმაცია და არ გაამხილონ არაავტორიზირებულ პირებთან. შესაბამისი კონფედენციალურობის პირობები შესაძლებელია იხილოთ მათ ვებსაიტებზე.   
 
-**ცვლილებები კონფიდენციალურობის პოლიტიკაში**
+### ცვლილებები კონფიდენციალურობის პოლიტიკაში
 ამ დოკუმენტში აღწერილი კონფიდენციალურობის პირობები არ შეცვლილა აპლიკაციის განთავსებიდან. ყოველგვარი ცვლილების შესახებ მომხმარებელი ინფორმირებული იქნება ამ გვერდის, აპლიკაციის აღწერისა და სხვა საშუალებებით.
 
-**დაგვიკავშირდით**
+### უკუკავშირი
 კითხვებისა და რჩევებისთვის დაგვიკავშირდით dev@anbani.ge.
 
 
@@ -41,18 +41,18 @@ If you choose to use my Service, then you agree to the collection and use of inf
 
 The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Georgian Keyboard unless otherwise defined in this Privacy Policy.
 
-**Information Collection and Use**
+### Information Collection and Use
 
 For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to App setting preferences (activated keyboards and layout theme color). The information that I request will be retained on your device and is not collected by me in any way.
 
 The app does use third party services that may collect information used to identify you listed in Service Providers section. 
 
-**Log Data**
+### Log Data
 
 I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
 
 
-**Service Providers**
+### Service Providers
 
 I may employ third-party companies and individuals due to the following reasons:
 
@@ -69,15 +69,15 @@ This Service uses the following third-party services to enhance the experience:
 - **Google Analytics** - for tracking global app usage and gathering user's setting preferences (keyboards activated and layout theme color).
 
 
-**Security**
+### Security
 
 I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
 
 
-**Changes to This Privacy Policy**
+### Changes to This Privacy Policy
 
 I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page, App listing at Play Store and by other means. These changes are effective immediately after they are posted on this page.
 
-**Contact Us**
+### Contact Us
 
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me for app related issues at dev@anbani.ge.
