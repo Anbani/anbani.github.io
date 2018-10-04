@@ -6,9 +6,11 @@ The following Privacy Policy is written for both English and Georgian audiences.
 ანდროიდ აპლიკაციის "ქართული კლავიატურა ჻ Anbani.ge" ავტორია გიორგი გაჩეჩილაძე და ვრცელდება უფასოდ გუგლის მაღაზიის ქსელით. ამ გვერდზე აღწერილია  კონფიდენციალურობის პოლიტიკა და ის პირადი თუ გლობალური ინფორმაცია რომელსაც აპლიკაცია აგროვებს მათთვის ვინც გადაწყვეტს მომსახურებით სარგებლობას.
 
 ### ინფორმაციის შეგროვება და გამოყენება
-ხარისხის გაუმჯობესების მიზნით აპლიკაცია აგროვებს:
+აპლიკაცია არ აგროვებს არანაირ პირად მაიდენტიფიცირებელ ინფორმაციას როგორიცაა სახელი, გვარი, ელფოსტა და ა.შ.
+
+ხარისხის გაუმჯობესების მიზნით აპლიკაცია აგროვებს შემდეგ სტატისტიკურ ინფორმაციას:
 - გლობალურ ინფორმაციას სერვისის გამოყენებისა შესახებ
-- პირად ინფორმაციას მომხმარებლის პარამეტრების კონფიგურაციის შესახებ.
+- პირად ინფორმაციას მომხმარებლის პარამეტრების კონფიგურაციის შესახებ (რომელიც მიბმულია გუგლის უნიკალურ იდენტიფიკატორთან და არ შეიცავს არანაირ პირად მაიდენტიფიცირებელ ინფორმაციას).
 
 გლობალური ინფორმაცია წარმოადგენს: არაპირადი სახის სტანდარტული სტატისტიკური ინფორმაცია აპლიკაციის გამოყენების შესახებ (აქტიური მომხმარებლების რაოდენობა, ქვეყნების ჩამონათვალი, და ა.შ.) რომელსაც დეტალურად შეგიძლიათ გაეცნოთ https://analytics.google.com/ 
 
@@ -43,7 +45,9 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 ### Information Collection and Use
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to App setting preferences (activated keyboards and layout theme color). The information that I request will be retained on your device and is not collected by me in any way.
+The application DOES NOT collect any personally identifiable information including but not limited to name, email and etc. 
+
+The service does collect statistical information about the application usage and user's setting preferences (activated keyboards and layout theme color). Statistical information is provided by Google Analytics that identifies each user by unique IDs and no personally identifiable information is traceable.
 
 The app does use third party services that may collect information used to identify you listed in Service Providers section. 
 
