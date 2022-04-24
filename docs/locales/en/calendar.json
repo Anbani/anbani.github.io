@@ -1,0 +1,110 @@
+{
+  "label-months-heading": "Months",
+  "label-months-description": "Old-Georgian names of the months of the year",
+  "label-days-heading": "Days",
+  "label-days-description": "Names of the days of the week from Kartvelian languages",
+  "months": {
+    "1": "January",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+  "monthsOld": {
+    "1": "აპნისი",
+    "2": "სარწყუნისი",
+    "3": "მირკანი",
+    "4": "იგრიკა",
+    "5": "ვარდობისთვე",
+    "6": "მარიალისა",
+    "7": "თიბისა",
+    "8": "ქველთობისა",
+    "9": "ენკენისთვე",
+    "10": "ღვინობისთვე",
+    "11": "ტირისკონი",
+    "12": "ტირისდენი"
+  },
+  "monthsOldMeaning": {
+    "1": "Month of plenty",
+    "2": "Month of a heavenly spring",
+    "3": "Month of covenant and oath",
+    "4": "Month of life and river",
+    "5": "Month of blooming",
+    "6": "",
+    "7": "Month of mowing",
+    "8": "Month of charity",
+    "9": "Month of transfer",
+    "10": "Month of vintage",
+    "11": "",
+    "12": ""
+  },
+  "monthsOldDescription": {
+    "1": "Same as Apan. It is probably derived from the name Kapan which was the deity of Plenty and Abundance in the pagan pantheon.",
+    "2": "Later known in folklore as month of Disclosure. Old Georgian \"Surtskani\" consists of two parts: \"Sur\" and \"Tskani\", the latter must be the current \"water\", and the former could be the same \"water\" in Avestan form. In Zend Avesta, among the twenty-eight yazats, was known as \"Ardavir-sur\", which means \"source of heavenly water\".",
+    "3": "Same as Mihrakan. Derived from the Pantheon of Zoroastrian Mithraism where he was the deity of light, covenant and oath.",
+    "4": "Igrika, with primary form being \"Igri\", \"Igrisa\". Igri in the pagan pantheon was a water deity who is also found in the myth of Amirani as Igri-lord. April is the period of the rising of the rivers, hence the month was named after the water deity. The name of the river Enguri is also derived from Igri. The word Igri itself must be a modification of \"Aregi\" which means sun in Armenian and life in a figurative sense.",
+    "5": "Same as Vardobisa or month of roses. There is speculation that the old name of the month must have been Nanai - i.e. the goddess of the great mother, fertility and beauty, which corresponded to the Ishtar \"Inana\" common in the ancient East and partly to Rea-Cybela, noting that one of their symbols was indeed a rose.",
+    "6": "Later known in folklore as a month of mowing. K. According to Kekelidze, \"Marial\" comes from the Armenian \"Marer\".",
+    "7": "Later known in folklore as Kvirikobistve. K. According to Kekelidze, \"Tibisai\" is a pure Georgian name, an indicator of the season when mowing takes place.",
+    "8": "Later known in folklore as a month of Virgin Mary. Possibly Queloba (Quelts, Month of Kindness). According to Kekelidze, in case of \"Queltoba\" it would be a mistake to name the first part of \"Kue\" as \"Kve\" to produce Kveli from it and appeal to it. The original form is \"Que\", which is associated with one of the months of the Iranian pagan calendar - \"Farvardin\", during which was held the feast of the underworld - \"Faravarta\".",
+    "9": "Start of the New Year in Georgia according to the old Georgian pagan calendar. It was popularly called Enkenistve. Enkenoba was a Georgian secular holiday and was celebrated on September 26 in previous centuries. Enkenoba was an event of transfering responsibilities and in Lechkhumi it lasted for a whole month.",
+    "10": "Later known in folklore as a month of wine. K. According to Kekelidze, \"Stulisa\" is a sacred Georgian name for the month in which the stvel or vintage took place, that is, the gathering of fruit.",
+    "11": "Later known in folklore as a month of St. George. K. According to Kekelidze, it should be \"Tiriskan\" and not \"Tiriskon\". Tiriskan is divided into \"Tiris\" and \"Kani\". The first part of \"Tiri\" is the name of the ancient Iranian month \"Tiris\", from which the name of the fourth Persian new month \"Tir\", as well as the Cappadocian \"Tirix-Τήρι-Τειρει\" and the Armenian \"TRE\" (here it is the fourth month) are derived. The second ending \"kan\" is an Iranian-Armenian ending, such as the Iranian \"froti-kan\", or later \"froti-gan\", Cappadocian \"mitrakan\", Armenian \"mehekan\" and \"ahekan\".",
+    "12": "Later known in folklore as a month of Christmas. K. According to Kekelidze, it should be \"Tirisdin\" and not \"Tirisden\". Tirisden is divided into \"Tiri\" and \"Dini\" parts. The first part of \"Tiri\" is the name of the ancient Iranian month \"Tiris\", from which the name of the fourth Persian new month \"Tir\", as well as the Cappadocian \"Tirix-Τήρι-Τειρει\" and the Armenian \"TRE\" (here it is the fourth month) are derived. The second ending \"din\" is the Iranian ending for the name of the month, eg Parvar-din."
+  },
+  "days": {
+    "0": "Monday",
+    "1": "Tuesday",
+    "2": "Wednesday",
+    "3": "Thursday",
+    "4": "Friday",
+    "5": "Saturday",
+    "6": "Sunday"
+  },
+  "daysOld": {
+    "0": "თუთადღე",
+    "1": "თახადღე",
+    "2": "ჯუმადღე",
+    "3": "ცაადღე",
+    "4": "ვებიდღე",
+    "5": "შურიდღე",
+    "6": "მიშლადღე"
+  },
+  "daysOldMeaning": {
+    "0": "Day of the Moon",
+    "1": "Day of the War",
+    "2": "Day of the Family",
+    "3": "Day of the Sky",
+    "4": "Day of the Rain",
+    "5": "Day of the Dead",
+    "6": "Day of the Sun"
+  },
+  "daysOldDescription": {
+    "0": "Derived from Megrelian-Laz (Tutashkha / Tutachkha) in honor of the moon deity",
+    "1": "Derived from Megrelian-Svanuri (Takhaskha / Takhash) in honor of the god of war",
+    "2": "Derived from Megrelian-Laz-Svan (Jumashkha / Jumachkha / Jumash) in honor of the deity of family, fertility and harvest",
+    "3": "Derived from Megrelian-Svanuri (Tsaashkha / Tsash) in honor of the deity of the sky",
+    "4": "Derived from Svanuri-Megrelian (Webish / Obishkha) in honor of the god of water and rain",
+    "5": "Derived from Megrelian (Shurishkha) Day of Remembrance of the Dead under the influence of the Jewish Sabbath / Sabbath",
+    "6": "Derived from Svan-Megrelian-Laz (Mishladegh / Zhashkha / Bzhachkha) in honor of the sun deity"
+  },
+  "daysKaldevelta": {
+    "0": "მთოვარისა",
+    "1": "არიასი",
+    "2": "ერმისა",
+    "3": "აფროდიტისა",
+    "4": "დიოსისა",
+    "5": "კრონოსისა",
+    "6": "მზისა"
+  },
+  "label-months-in-old-georgian": "Old-Georgian names of months",
+  "label-days-in-old-georgian": "Old-Georgian names of the days of the week",
+  "title": "Georgian Alphabet ჻ Calendar"
+}

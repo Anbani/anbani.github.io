@@ -1,0 +1,110 @@
+{
+  "label-months-heading": "Mėnesių",
+  "label-months-description": "Senieji gruziniški metų mėnesių pavadinimai",
+  "label-days-heading": "Dienos",
+  "label-days-description": "Savaitės dienų pavadinimai iš kartvelų kalbų",
+  "months": {
+    "1": "sausio mėn",
+    "2": "vasario mėn",
+    "3": "Kovas",
+    "4": "Balandis",
+    "5": "Gegužė",
+    "6": "birželis",
+    "7": "liepos mėn",
+    "8": "Rugpjūtis",
+    "9": "rugsėjis",
+    "10": "Spalio mėn",
+    "11": "lapkritis",
+    "12": "gruodį"
+  },
+  "monthsOld": {
+    "1": "Apnėja",
+    "2": "Laistymas",
+    "3": "Mirkani",
+    "4": "Igrika",
+    "5": "Rudeniui",
+    "6": "Marial",
+    "7": "TBC",
+    "8": "Iš labdaros",
+    "9": "Enkenui",
+    "10": "Dėl vyno",
+    "11": "Tyriscon",
+    "12": "Tirisden"
+  },
+  "monthsOldMeaning": {
+    "1": "Gausybės mėnuo",
+    "2": "Dangiškojo pavasario mėnuo",
+    "3": "Sandoros ir priesaikos mėnuo",
+    "4": "Gyvenimo ir upės mėnuo",
+    "5": "Žydėjimo mėnuo",
+    "6": "User Rate Limit Exceeded",
+    "7": "Pjovimo mėnuo",
+    "8": "Labdaros mėnuo",
+    "9": "Pervedimo mėnuo",
+    "10": "Derliaus mėnuo",
+    "11": "User Rate Limit Exceeded",
+    "12": "User Rate Limit Exceeded"
+  },
+  "monthsOldDescription": {
+    "1": "Tas pats kaip Apanas. Tikriausiai jis kilęs iš pavadinimo Kapanas, kuris buvo gausybės ir gausos dievybė pagoniškame panteone.",
+    "2": "Vėliau tautosakoje žinomas kaip Atskleidimo mėnuo. Senasis gruziniškas „Surtskani“ susideda iš dviejų dalių: „Sur“ ir „Tskani“, pastaroji turi būti dabartinis „vanduo“, o pirmoji galėtų būti tas pats „vanduo“ Avestos pavidalu. Zend Avesta, tarp dvidešimt aštuonių jazatų, buvo žinomas kaip „Ardavir-sur“, o tai reiškia „dangiškojo vandens šaltinis“.",
+    "3": "Tas pats kaip Mihrakanas. Kilęs iš zoroastrizmo mitraizmo panteono, kur jis buvo šviesos, sandoros ir priesaikos dievybė.",
+    "4": "Igrika, pirminės formos yra \"Igri\", \"Igrisa\". Igris pagoniškame panteone buvo vandens dievybė, kuri taip pat randama mite apie Amiranį kaip Igri valdovą. Balandis yra upių pakilimo laikotarpis, todėl mėnuo buvo pavadintas vandens dievybės vardu. Enguri upės pavadinimas taip pat kilęs iš Igri. Pats žodis Igri turi būti „Aregi“ modifikacija, kuri armėnų kalba reiškia saulę ir gyvenimą perkeltine prasme.",
+    "5": "Tas pats kaip Vardobisa arba rožių mėnuo. Spėjama, kad senasis mėnesio pavadinimas turėjo būti Nanai – t.y. didžiosios motinos, vaisingumo ir grožio deivė, kuri atitiko senovės Rytuose paplitusią Ishtar „Inana“ ir iš dalies Rea-Cybela, pažymint, kad viena. iš jų simbolių iš tiesų buvo rožė.",
+    "6": "Vėliau tautosakoje žinomas kaip šienavimo mėnuo. K. Kekelidzės teigimu, „Marial“ kilęs iš armėnų „Marer“.",
+    "7": "Vėliau tautosakoje žinomas kaip Kvirikobistve. K. Kekelidzės teigimu, „Tibisai“ – grynas gruziniškas pavadinimas, sezono, kai šienaujama, rodiklis.",
+    "8": "Vėliau tautosakoje žinomas kaip Mergelės Marijos mėnuo. Galbūt Queloba (Quelts, Gerumo mėnuo). Kekelidzės teigimu, „Queltobos“ atveju būtų klaidinga pirmąją „Kue“ dalį pavadinti „Kve“, kad iš jos būtų gaminamas Kveli ir apeliuojama. Originali forma yra „Que“, kuri siejama su vienu iš Irano pagoniškojo kalendoriaus mėnesių – „Farvardin“, kurio metu buvo surengta požemio šventė – „Faravarta“.",
+    "9": "Naujųjų metų pradžia Gruzijoje pagal senąjį gruzinų pagonišką kalendorių. Jis buvo populiariai vadinamas Enkenistve. Enkenoba buvo gruzinų pasaulietinė šventė ir ankstesniais amžiais buvo švenčiama rugsėjo 26 d. Enkenoba buvo pareigų perdavimo įvykis, o Lechchumio mieste jis tęsėsi visą mėnesį.",
+    "10": "Vėliau tautosakoje žinomas kaip vyno mėnuo. K. Kekelidzės teigimu, „Stulisa“ – šventas gruzinų pavadinimas, skirtas mėnesiui, kurį vyko stvelis arba derliaus, tai yra vaisių rinkimas.",
+    "11": "Vėliau tautosakoje žinomas kaip Jurgio mėnuo. K. Kekelidzės nuomone, tai turėtų būti „Tiriskan“, o ne „Tiriskon“. Tiriskanas skirstomas į „Tiris“ ir „Kani“. Pirmoji „Tiri“ dalis yra senovės iraniečių mėnesio „Tiris“ pavadinimas, iš kurio kilo ketvirtojo persų naujojo mėnesio pavadinimas „Tir“, taip pat kapadokietiškas „Tirix-Τήρι-Τειρει“ ir armėniškas „TRE“. “ (čia jau ketvirtas mėnuo) yra išvestos. Antroji galūnė „kan“ yra iranietiška-armėniška galūnė, tokia kaip iranietiška „froti-kan“, arba vėliau „froti-gan“, kapadokiečių kalba „mitrakan“, armėniška „mehekan“ ir „ahekan“.",
+    "12": "Vėliau tautosakoje žinomas kaip Kalėdų mėnuo. K. Kekelidzės nuomone, tai turėtų būti „Tirisdin“, o ne „Tirisden“. Tirisdenas skirstomas į „Tiri“ ir „Dini“ dalis. Pirmoji „Tiri“ dalis yra senovės iraniečių mėnesio „Tiris“ pavadinimas, iš kurio kilo ketvirtojo persų naujojo mėnesio pavadinimas „Tir“, taip pat kapadokietiškas „Tirix-Τήρι-Τειρει“ ir armėniškas „TRE“. “ (čia jau ketvirtas mėnuo) yra išvestos. Antroji galūnė „din“ yra iranietiška mėnesio pavadinimo galūnė, pvz., Parvar-din."
+  },
+  "days": {
+    "0": "pirmadienis",
+    "1": "antradienis",
+    "2": "trečiadienį",
+    "3": "ketvirtadienis",
+    "4": "penktadienis",
+    "5": "šeštadienis",
+    "6": "sekmadienis"
+  },
+  "daysOld": {
+    "0": "Tutadge",
+    "1": "თახადღე",
+    "2": "Jumadge",
+    "3": "Tsaadghe",
+    "4": "Interneto svetainė",
+    "5": "Kerštas",
+    "6": "მიშლადღე"
+  },
+  "daysOldMeaning": {
+    "0": "Mėnulio diena",
+    "1": "Karo diena",
+    "2": "Šeimos diena",
+    "3": "Dangaus diena",
+    "4": "Lietaus diena",
+    "5": "Mirusiųjų diena",
+    "6": "Saulės diena"
+  },
+  "daysOldDescription": {
+    "0": "Kilęs iš Megrelian-Laz (Tutashkha / Tutachkha) mėnulio dievybės garbei",
+    "1": "Kilęs iš Megrelian-Svanuri (Takhaskha / Takhash) karo dievo garbei",
+    "2": "Kilęs iš Megrelian-Laz-Svan (Jumashkha / Jumachkha / Jumash) šeimos, vaisingumo ir derliaus dievybės garbei.",
+    "3": "Kilęs iš Megrelian-Svanuri (Tsaashkha / Tsash) dangaus dievybės garbei",
+    "4": "Kilęs iš Svanuri-Megrelian (Webish / Obishkha) vandens ir lietaus dievo garbei",
+    "5": "Kilęs iš Megrelian (Shurishkha) mirusiųjų atminimo dienos veikiant žydų šabai / šabas",
+    "6": "Kilęs iš Svan-Megrelian-Laz (Mishladegh / Zhashkha / Bzhachkha) saulės dievybės garbei"
+  },
+  "daysKaldevelta": {
+    "0": "Iš mėnulio",
+    "1": "Arijos",
+    "2": "Ermis",
+    "3": "Iš Afroditės",
+    "4": "Iš Dioso",
+    "5": "Iš Kronos",
+    "6": "Iš saulės"
+  },
+  "label-months-in-old-georgian": "Senieji gruziniški mėnesių pavadinimai",
+  "label-days-in-old-georgian": "Senieji gruziniški savaitės dienų pavadinimai",
+  "title": "gruzinų abėcėlė ჻ Kalendorius"
+}

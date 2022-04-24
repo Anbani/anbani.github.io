@@ -1,0 +1,28 @@
+{
+    "name": "\u1c90\u1c9c\u1c91\u1c90\u1c9c\u1c98",
+    "short_name": "\u1c90\u1c9c\u1c91\u1c90\u1c9c\u1c98",
+    "icons": [
+        {
+            "src": "/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
+    ],
+    "theme_color": "#4f46e5",
+    "background_color": "#e2e8f0",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "description": "Educational platform about Georgian alphabet"
+}

@@ -1,0 +1,110 @@
+{
+  "label-months-heading": "månader",
+  "label-months-description": "Gammal-georgiska namn på årets månader",
+  "label-days-heading": "dagar",
+  "label-days-description": "Namn på veckodagarna från kartvelska språk",
+  "months": {
+    "1": "januari",
+    "2": "februari",
+    "3": "Mars",
+    "4": "april",
+    "5": "Maj",
+    "6": "juni",
+    "7": "juli",
+    "8": "augusti",
+    "9": "september",
+    "10": "oktober",
+    "11": "november",
+    "12": "december"
+  },
+  "monthsOld": {
+    "1": "Apné",
+    "2": "Vattning",
+    "3": "Mirkani",
+    "4": "Igrika",
+    "5": "Till hösten",
+    "6": "Marial",
+    "7": "TBC",
+    "8": "Av välgörenhet",
+    "9": "För Enken",
+    "10": "För vin",
+    "11": "Tyriscon",
+    "12": "Tirisden"
+  },
+  "monthsOldMeaning": {
+    "1": "Månad av överflöd",
+    "2": "Månad av en himmelsk vår",
+    "3": "Förbundets och edens månad",
+    "4": "Livets månad och flod",
+    "5": "Månad av blomning",
+    "6": "User Rate Limit Exceeded",
+    "7": "Månad av klippning",
+    "8": "Månad av välgörenhet",
+    "9": "Överföringsmånad",
+    "10": "Årgångsmånad",
+    "11": "User Rate Limit Exceeded",
+    "12": "User Rate Limit Exceeded"
+  },
+  "monthsOldDescription": {
+    "1": "Samma som Apan. Det härstammar förmodligen från namnet Kapan som var gudomen för överflöd och överflöd i det hedniska panteonet.",
+    "2": "Senare känd i folklore som månaden av avslöjande. Gamla georgiska \"Surtskani\" består av två delar: \"Sur\" och \"Tskani\", det senare måste vara det nuvarande \"vattnet\", och det förra skulle kunna vara samma \"vatten\" i avestisk form. I Zend Avesta, bland de tjugoåtta yazaterna, var känd som \"Ardavir-sur\", vilket betyder \"källa till himmelskt vatten\".",
+    "3": "Samma som Mihrakan. Härledd från Pantheon of Zoroastrian Mithraism där han var ljusets, förbundets och edens gudom.",
+    "4": "Igrika, med primär form som \"Igri\", \"Igrisa\". Igri i det hedniska panteonet var en vattengud som också finns i myten om Amirani som Igri-herre. April är den period då floderna stiger, därför fick månaden sitt namn efter vattenguden. Namnet på floden Enguri kommer också från Igri. Själva ordet Igri måste vara en modifikation av \"Aregi\" som betyder sol på armeniska och liv i bildlig mening.",
+    "5": "Samma som Vardobisa eller månad av rosor. Det finns spekulationer om att det gamla namnet på månaden måste ha varit Nanai - d.v.s. den stora moderns gudinna, fertilitet och skönhet, vilket motsvarade Ishtar \"Inana\" som var vanliga i det gamla östern och delvis till Rea-Cybela, och noterar att en av deras symboler var verkligen en ros.",
+    "6": "Senare känd i folkmun som slåttermånad. K. Enligt Kekelidze kommer \"Marial\" från det armeniska \"Marer\".",
+    "7": "Senare känd i folkmun som Kvirikobistve. K. Enligt Kekelidze är \"Tibisai\" ett rent georgiskt namn, en indikator på säsongen då klippning sker.",
+    "8": "Senare känd i folkmun som Jungfru Marias månad. Möjligen Queloba (Quelts, Month of Kindness). Enligt Kekelidze skulle det i fallet med \"Queltoba\" vara ett misstag att namnge den första delen av \"Kue\" som \"Kve\" för att producera Kveli från den och vädja till den. Den ursprungliga formen är \"Que\", som är förknippad med en av månaderna i den iranska hedniska kalendern - \"Farvardin\", under vilken hölls underjordens högtid - \"Faravarta\".",
+    "9": "Start av det nya året i Georgien enligt den gamla georgiska hedniska kalendern. Det kallades i folkmun Enkenistve. Enkenoba var en georgisk sekulär helgdag och firades den 26 september under tidigare århundraden. Enkenoba var en händelse för att överföra ansvar och i Lechkhumi varade det i en hel månad.",
+    "10": "Senare känd i folkmun som en vinmånad. K. Enligt Kekelidze är \"Stulisa\" ett heligt georgiskt namn för den månad då stvel eller årgång ägde rum, det vill säga insamling av frukt.",
+    "11": "Senare känd i folklore som en månad för St. George. K. Enligt Kekelidze ska det vara \"Tiriskan\" och inte \"Tiriskon\". Tiriskan är uppdelad i \"Tiris\" och \"Kani\". Den första delen av \"Tiri\" är namnet på den forntida iranska månaden \"Tiris\", från vilken namnet på den fjärde persiska nya månaden \"Tir\", liksom den cappadociska \"Tirix-Τήρι-Τειρει\" och den armeniska \"TRE\" \" (här är det den fjärde månaden) härleds. Den andra ändelsen \"kan\" är en iransk-armenisk ändelse, såsom den iranska \"froti-kan\", eller senare \"froti-gan\", cappadocian \"mitrakan\", armeniska \"mehekan\" och \"ahekan\".",
+    "12": "Senare känd i folkmun som en julmånad. K. Enligt Kekelidze ska det vara \"Tirisdin\" och inte \"Tirisden\". Tirisden är uppdelad i \"Tiri\" och \"Dini\" delar. Den första delen av \"Tiri\" är namnet på den forntida iranska månaden \"Tiris\", från vilken namnet på den fjärde persiska nya månaden \"Tir\", liksom den cappadociska \"Tirix-Τήρι-Τειρει\" och den armeniska \"TRE\" \" (här är det den fjärde månaden) härleds. Den andra ändelsen \"din\" är den iranska ändelsen för månadens namn, t.ex. Parvar-din."
+  },
+  "days": {
+    "0": "måndag",
+    "1": "tisdag",
+    "2": "onsdag",
+    "3": "torsdag",
+    "4": "fredag",
+    "5": "lördag",
+    "6": "söndag"
+  },
+  "daysOld": {
+    "0": "Tutadge",
+    "1": "თახადღე",
+    "2": "Jumadge",
+    "3": "Tsaadghe",
+    "4": "Hemsida",
+    "5": "Hämnd",
+    "6": "მიშლადღე"
+  },
+  "daysOldMeaning": {
+    "0": "Månens dag",
+    "1": "Krigets dag",
+    "2": "Familjens dag",
+    "3": "Himmelens dag",
+    "4": "Regnets dag",
+    "5": "De dödas dag",
+    "6": "Solens dag"
+  },
+  "daysOldDescription": {
+    "0": "Kommer från Megrelian-Laz (Tutashkha / Tutachkha) för att hedra månguden",
+    "1": "Kommer från Megrelian-Svanuri (Takhaskha / Takhash) för att hedra krigsguden",
+    "2": "Kommer från Megrelian-Laz-Svan (Jumashkha / Jumachkha / Jumash) för att hedra familjens gudom, fertilitet och skörd",
+    "3": "Kommer från Megrelian-Svanuri (Tsaashkha / Tsash) för att hedra himlens gudom",
+    "4": "Kommer från Svanuri-Megrelian (Webish / Obishkha) för att hedra guden av vatten och regn",
+    "5": "Kommer från Megrelian (Shurishkha) Day of Remembrance of the Dead under påverkan av den judiska sabbaten / sabbaten",
+    "6": "Kommer från Svan-Megrelian-Laz (Mishladegh / Zhashkha / Bzhachkha) för att hedra solguden"
+  },
+  "daysKaldevelta": {
+    "0": "Av månen",
+    "1": "Arias",
+    "2": "Ermis",
+    "3": "Av Afrodite",
+    "4": "Av Dios",
+    "5": "Av Kronos",
+    "6": "Av solen"
+  },
+  "label-months-in-old-georgian": "Gamla-georgiska namn på månader",
+  "label-days-in-old-georgian": "Gammal-georgiska namn på veckodagarna",
+  "title": "georgiska alfabetet ჻ Kalender"
+}
