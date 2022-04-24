@@ -1,5 +1,5 @@
 {
-  "preview": "/assets/brand/preview.jpg",
+  "preview": "https://anbani.ge/assets/brand/preview.jpg",
   "canonical": "https://anbani.ge",
   "twitter": "@anbani.georgia",
   "title-converter": "ძველქართული და მთავრული კლავიატურა",
@@ -24,5 +24,6 @@
   "footer-tab-project": "პროექტი",
   "footer-tab-platform": "პლატფორმა",
   "footer-tab-developers": "დეველოპერებს",
+  "ANBANI" : "ᲐᲜᲑᲐᲜᲘ",
   "title": "ანბანი ჻ Anbani.ge"
 }
