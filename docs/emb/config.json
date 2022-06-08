@@ -3,13 +3,13 @@
         {
             "tensorName": "ვიკიპედია",
             "tensorShape": [
-                10975,
-                100
+                10096,
+                200
             ],
-            "tensorPath": "/emb/kawiki_min_10975W_100D_tensors.bytes",
-            "metadataPath": "/emb/kawiki_min_10975W_100D_labels.tsv"
+            "tensorPath": "/emb/kawiki_min_tensors.bytes",
+            "metadataPath": "/emb/kawiki_min_labels.tsv",
+            "params": "{'alpha': 0.01, 'window': 42, 'negative': 42, 'vector_size': 200} => 32.85% on selection"
         },
-
         {
             "tensorName": "ვეფხისტყაოსანი",
             "tensorShape": [
