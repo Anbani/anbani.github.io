@@ -11173,6 +11173,13 @@
   <template>
   <style include="vz-projector-styles"></style>
   <style>
+
+  #demo-data-buttons-container {
+    flex-wrap: wrap;
+    row-gap: 4px;
+
+  }
+
   .container {
     padding: 5px 20px 20px 20px;
   }
@@ -11332,7 +11339,7 @@
   }
   
   .button-container {
-    flex: 1 100%;
+    // flex: 1 100%;
     margin-right: 5px;
   }
   
@@ -11394,7 +11401,7 @@
   }
   
   </style>
-  <div class="title">DATA</div>
+  <div class="title">მონაცემები</div>
   <div class="container">
     
     <template is="dom-if" if="[[_hasChoices(runNames)]]">
@@ -11428,7 +11435,7 @@
     <div hidden$="[[!_hasChoices(colorOptions)]]">
       <div class="colorlabel-container">
         
-        <paper-dropdown-menu id="labelby" no-animations label="Label by">
+        <paper-dropdown-menu id="labelby" no-animations label="იარლიყად არჩევა">
           <paper-listbox attr-for-selected="value" class="dropdown-content" selected="{{selectedLabelOption}}" slot="dropdown-content">
             <template is="dom-repeat" items="[[labelOptions]]">
               <paper-item value="[[item]]" label="[[item]]">
@@ -11438,7 +11445,7 @@
           </paper-listbox>
         </paper-dropdown-menu>
         
-        <paper-dropdown-menu id="colorby" no-animations label="Color by">
+        <paper-dropdown-menu id="colorby" no-animations label="ფერად არჩევა">
           <paper-listbox attr-for-selected="value" class="dropdown-content" selected="{{selectedColorOptionName}}" slot="dropdown-content">
             <template is="dom-repeat" items="[[colorOptions]]">
               <paper-item class$="[[getSeparatorClass(item.isSeparator)]]" value="[[item.name]]" label="[[item.name]]" disabled="[[item.isSeparator]]">
@@ -11450,12 +11457,10 @@
         </paper-dropdown-menu>
       </div>
       <div hidden$="[[!showForceCategoricalColorsCheckbox]]">
-        <paper-checkbox id="force-categorical-checkbox">Use categorical coloring</paper-checkbox>
+        <paper-checkbox id="force-categorical-checkbox">კატეგორიული გაფერადება</paper-checkbox>
         <paper-icon-button icon="help" class="help-icon"></paper-icon-button>
         <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-          For metadata fields that have many unique values we use a gradient color map
-          by default. This checkbox allows you to force categorical coloring by a given
-          metadata field.
+          მეტაინფორმაციული ველებისთვის რომელთაც მრავალი უნიკალური მნიშვნელობა აქვთ შეგვიძლია გამოვიყენოთ გრადიენტულ ფერთა რუკა გულისხმობის პრინციპით. ეს ჩამრთველი საშუალებას იძლევა კატეგორიული შეფერადების იძულებას მოცემულ ველზე.
         </paper-tooltip>
       </div>
       <template dom-if="[[colorLegendRenderInfo]]">
@@ -11479,7 +11484,7 @@
       </div>
       
       <div class="metadata-editor">
-        <paper-dropdown-menu no-animations label="Edit by">
+        <paper-dropdown-menu no-animations label="გადაკეთება">
           <paper-listbox attr-for-selected="value" class="dropdown-content" slot="dropdown-content" on-selected-item-changed="metadataEditorColumnChange" selected="{{metadataEditorColumn}}">
             <template is="dom-repeat" items="[[metadataFields]]">
               <paper-item value="[[item]]" label="[[item]]">
@@ -11495,28 +11500,28 @@
     <div id="demo-data-buttons-container">
       <span class="button-container">
         <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-          Load data from your computer
+          ჩატვირთეთ მონაცემები თქვენი კომპიუტერიდან
         </paper-tooltip>
-        <paper-button id="upload" class="ink-button" onclick="dataDialog.open()">Load</paper-button>
+        <paper-button id="upload" class="ink-button" onclick="dataDialog.open()">ჩატვირთვა</paper-button>
       </span>
       <span id="publish-container" class="button-container">
         <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-          Publish your embedding visualization and data
+          გამოაქვეყნეთ თქვენი განლაგებათა ვიზუალიზაცია და მონაცემები
         </paper-tooltip>
-        <paper-button id="host-embedding" class="ink-button" onclick="projectorConfigDialog.open()">Publish</paper-button>
+        <paper-button id="host-embedding" class="ink-button" onclick="projectorConfigDialog.open()">გამოქვეყნება</paper-button>
       </span>
       <span class="button-container">
         <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-          Download the metadata with applied modifications
+          გადმოტვირთეთ მეტაინფორმაცია მიღებული მოდიფიკაციებით
         </paper-tooltip>
-        <paper-button class="ink-button" on-click="downloadMetadataClicked">Download</paper-button>
+        <paper-button class="ink-button" on-click="downloadMetadataClicked">გადმოტვირთვა</paper-button>
         <a href="#" id="downloadMetadataLink" hidden></a>
       </span>
       <span id="label-button" class="button-container">
         <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-          Label selected metadata
+          დანიშვნა მონიშნული მეტაინფორმაციის
         </paper-tooltip>
-        <paper-button class="ink-button" on-click="metadataEditorButtonClicked" disabled="[[metadataEditorButtonDisabled]]">Label</paper-button>
+        <paper-button class="ink-button" on-click="metadataEditorButtonClicked" disabled="[[metadataEditorButtonDisabled]]">იარლიყი</paper-button>
       </span>
     </div>
     <div>
@@ -11619,21 +11624,20 @@
       </paper-dialog>
     </div>
     <paper-checkbox id="normalize-data-checkbox" checked="{{normalizeData}}">
-      Sphereize data
+      მონაცემთა სფერირება
       <paper-icon-button icon="help" class="help-icon"></paper-icon-button>
       <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-        The data is normalized by shifting each point by the centroid and making
-        it unit norm.
+        მონაცემები ნორმალიზდება ყოველი წერტილის ცენტროიდული გადანაცვლებით რაც გვაძლევს ერთეულოვან ნორმალს. 
       </paper-tooltip>
     </paper-checkbox>
     <div class="dirs">
       <table>
         <tr>
-          <td>Checkpoint:</td>
+          <td>შენახული:</td>
           <td><span id="checkpoint-file"></span></td>
         </tr>
         <tr>
-          <td>Metadata:</td>
+          <td>მეტაინფორმაცია:</td>
           <td><span id="metadata-file"></span></td>
         </tr>
       </table>
@@ -11643,7 +11647,7 @@
   </template>
   <script>//~~WEBPATH~~/vz-projector/vz-projector-data-panel.js
   zc=this&&this.__extends||function(){var a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(b,c){b.__proto__=c}||function(b,c){for(var d in c)c.hasOwnProperty(d)&&(b[d]=c[d])};return function(b,c){function d(){this.constructor=b}a(b,c);b.prototype=null===c?Object.create(c):(d.prototype=c.prototype,new d)}}();
-  (function(a){a.DataPanelPolymer=a.PolymerElement({is:"vz-projector-data-panel",properties:{selectedTensor:{type:String,observer:"_selectedTensorChanged"},selectedRun:String,selectedColorOptionName:{type:String,notify:!0,observer:"_selectedColorOptionNameChanged"},selectedLabelOption:{type:String,notify:!0,observer:"_selectedLabelOptionChanged"},normalizeData:Boolean,showForceCategoricalColorsCheckbox:Boolean,metadataEditorInput:{type:String},metadataEditorInputLabel:{type:String,value:"Tag selection as"},
+  (function(a){a.DataPanelPolymer=a.PolymerElement({is:"vz-projector-data-panel",properties:{selectedTensor:{type:String,observer:"_selectedTensorChanged"},selectedRun:String,selectedColorOptionName:{type:String,notify:!0,observer:"_selectedColorOptionNameChanged"},selectedLabelOption:{type:String,notify:!0,observer:"_selectedLabelOptionChanged"},normalizeData:Boolean,showForceCategoricalColorsCheckbox:Boolean,metadataEditorInput:{type:String},metadataEditorInputLabel:{type:String,value:"თეგის მონიშვნა"},
   metadataEditorInputChange:{type:Object},metadataEditorColumn:{type:String},metadataEditorColumnChange:{type:Object},metadataEditorButtonClicked:{type:Object},metadataEditorButtonDisabled:{type:Boolean},downloadMetadataClicked:{type:Boolean},superviseInput:{type:String},superviseInputTyping:{type:Object},superviseInputChange:{type:Object},superviseInputLabel:{type:String,value:"Ignored label"},superviseColumn:{type:String},superviseColumnChanged:{type:Object},showSuperviseSettings:{type:Boolean,value:!1}},
   observers:["_generateUiForNewCheckpointForRun(selectedRun)"]});var b=function(c){function d(){var e=null!==c&&c.apply(this,arguments)||this;e.forceCategoricalColoring=!1;return e}zc(d,c);d.prototype.ready=function(){this.normalizeData=!0;this.superviseInputSelected=""};d.prototype.initialize=function(e,g){var h=this;this.projector=e;this.dataProvider=g;this.setupUploadButtons();this.querySelector("#normalize-data-checkbox").addEventListener("change",function(){h.projector.setNormalizeData(h.normalizeData)});
   var k=this.querySelector("#force-categorical-checkbox");k.addEventListener("change",function(){h.setForceCategoricalColoring(k.checked)});this.dataProvider.retrieveRuns(function(l){h.runNames=l;0<h.runNames.length&&(h.selectedRun!=l[0]?h.selectedRun=l[0]:h._generateUiForNewCheckpointForRun(h.selectedRun))})};d.prototype.setForceCategoricalColoring=function(e){this.forceCategoricalColoring=e;this.querySelector("#force-categorical-checkbox").checked=this.forceCategoricalColoring;this.updateMetadataUI(this.spriteAndMetadata.stats,
@@ -11654,7 +11658,7 @@
   m.isNumeric}).map(function(m){if(h.forceCategoricalColoring||!m.tooManyUniqueValues){var n=d3.scaleOrdinal(d3.schemeCategory10);var q=n.range();var p=q.map(function(v,u){return q[3*u%q.length]});var t=m.uniqueEntries;n.range(p).domain(t.map(function(v){return v.label}));p=m.uniqueEntries.length;p=p+" "+(p>q.length?" non-unique":"")+" colors"}else{var r=[{color:"#f8fafcfdd",value:m.min},{color:"#1f2d86",value:m.max}];n=d3.scaleLinear().domain(r.map(function(v){return v.value})).range(r.map(function(v){return v.color}));
   p="gradient"}return{name:m.name,desc:p,map:n,items:t,thresholds:r,tooManyUniqueValues:m.tooManyUniqueValues}});0<e.length&&g.push({name:"Metadata",isSeparator:!0});this.colorOptions=g.concat(e)};d.prototype.metadataEditorContext=function(e){this.metadataEditorButtonDisabled=!e;this.projector&&this.projector.metadataEditorContext(e,this.metadataEditorColumn)};d.prototype.metadataEditorInputChange=function(){var e=this.metadataEditorColumn,g=this.metadataEditorInput,h=this.selectedPointIndices.length+
   this.neighborsOfFirstPoint.length;0<h?null!=g&&""!==g.trim()?this.spriteAndMetadata.stats.filter(function(k){return k.name===e})[0].isNumeric&&isNaN(+g)?(this.metadataEditorInputLabel="Label must be numeric",this.metadataEditorContext(!1)):(0===this.projector.dataSet.points.filter(function(k){return k.metadata[e].toString()===g.trim()}).length?this.metadataEditorInputLabel="Tag "+h+" with new label":this.metadataEditorInputLabel="Tag "+h+" points as",this.metadataEditorContext(!0)):(this.metadataEditorInputLabel=
-  "Tag selection as",this.metadataEditorContext(!1)):(this.metadataEditorContext(!1),null!=g&&""!==g.trim()?this.metadataEditorInputLabel="Select points to tag":this.metadataEditorInputLabel="Tag selection as")};d.prototype.metadataEditorInputKeydown=function(e){13===e.keyCode&&this.metadataEditorButtonClicked();e.stopPropagation()};d.prototype.metadataEditorColumnChange=function(){this.metadataEditorInputChange()};d.prototype.metadataEditorButtonClicked=function(){if(!this.metadataEditorButtonDisabled){var e=
+  "თეგის მონიშვნა",this.metadataEditorContext(!1)):(this.metadataEditorContext(!1),null!=g&&""!==g.trim()?this.metadataEditorInputLabel="Select points to tag":this.metadataEditorInputLabel="თეგის მონიშვნა")};d.prototype.metadataEditorInputKeydown=function(e){13===e.keyCode&&this.metadataEditorButtonClicked();e.stopPropagation()};d.prototype.metadataEditorColumnChange=function(){this.metadataEditorInputChange()};d.prototype.metadataEditorButtonClicked=function(){if(!this.metadataEditorButtonDisabled){var e=
   this.metadataEditorInput.trim(),g=this.selectedPointIndices.length+this.neighborsOfFirstPoint.length;this.projector.metadataEdit(this.metadataEditorColumn,e);this.projector.metadataEditorContext(!0,this.metadataEditorColumn);this.metadataEditorInputLabel=g+" labeled as '"+e+"'"}};d.prototype.downloadMetadataClicked=function(){if(this.projector&&this.projector.dataSet&&this.projector.dataSet.spriteAndMetadataInfo){var e=this.projector.dataSet.spriteAndMetadataInfo.stats.map(function(h){return h.name}).join("\t");
   this.projector.dataSet.spriteAndMetadataInfo.pointsInfo.forEach(function(h){var k=[],l;for(l in h)k.push(h[l]);e+="\n"+k.join("\t")});var g=new Blob([e],{type:"text/plain"});this.$.downloadMetadataLink.download="metadata-edited.tsv";this.$.downloadMetadataLink.href=window.URL.createObjectURL(g);this.$.downloadMetadataLink.click()}};d.prototype.superviseInputTyping=function(){var e=this,g=this.superviseInput.trim();if(null==g||""===g.trim())this.superviseInputLabel=""===this.superviseInputSelected?
   "No ignored label":"Supervising without '"+this.superviseInputSelected+"'";else if(this.projector&&this.projector.dataSet){var h=this.projector.dataSet.points.filter(function(k){return k.metadata[e.superviseColumn].toString().trim()===g}).length;0===h?this.superviseInputLabel="Label not found":this.projector.dataSet.superviseInput!=g&&(this.superviseInputLabel="Supervise without '"+g+"' ["+h+" points]")}};d.prototype.superviseInputChange=function(){var e=this,g=this.superviseInput.trim();if(null==
@@ -12252,6 +12256,7 @@
      flex-direction: column;
      /* Account for the bookmark pane at the bottom */
      height: calc(100% - 55px);
+
   }
   
   .container {
@@ -12261,7 +12266,9 @@
   
   .buttons {
     display: flex;
-    height: 60px;
+    height: 120px;
+    flex-direction: column;
+     row-gap: 4px;
   }
   
   .button {
@@ -12271,6 +12278,7 @@
     font-size: 13px;
     padding: 10px;
     background: #e2e8f0;
+    width: 100%;
   }
   
   .button:last-child {
@@ -12416,12 +12424,12 @@
   <template>
   <div class="container">
     <div class="buttons">
-      <button class="button reset-filter">Show All Data</button>
-      <button class="button set-filter">Isolate selection</button>
-      <button class="button clear-selection">Clear selection</button>
+      <button class="button reset-filter">მანახე ყველა მონაცემი</button>
+      <button class="button set-filter">მონიშნულის იზოლირება</button>
+      <button class="button clear-selection">მონიშნულის გასუფთავება</button>
     </div>
     <div class="search-by">
-      <vz-projector-input id="search-box" label="Search"></vz-projector-input>
+      <vz-projector-input id="search-box" label="ძიება..."></vz-projector-input>
       <paper-dropdown-menu no-animations label="by">
         <paper-listbox attr-for-selected="value" class="dropdown-content" selected="{{selectedMetadataField}}" slot="dropdown-content">
           <template is="dom-repeat" items="[[metadataFields]]">
@@ -12491,7 +12499,7 @@
   t=document.createElement("a");t.className="label";t.title=p;t.innerText=p;t.onmouseenter=function(){g.projectorEventContext.notifyHoverOverPoint(q)};t.onmouseleave=function(){g.projectorEventContext.notifyHoverOverPoint(null)};t.onclick=function(){g.projectorEventContext.notifySelectionChanged([q])};n.appendChild(t);h.appendChild(n)},l=this,m=0;m<e.length;m++)k(m)}};d.prototype.getLabelFromIndex=function(e){return this.projector.dataSet.points[e].metadata[this.selectedMetadataField].toString()};d.prototype.updateNeighborsList=
   function(e){var g=this,h=this.querySelector(".nn-list");h.innerHTML="";if(0===e.length)this.removeContext(".nn");else{this.addContext(".nn");this.searchBox.message="";for(var k=0<e.length?e[0].dist:0,l=function(q){var p=e[q];q=document.createElement("div");q.className="neighbor";var t=document.createElement("a");t.className="neighbor-link";t.title=m.getLabelFromIndex(p.index);var r=document.createElement("div");r.className="label-and-value";var v=document.createElement("div");v.className="label";
   v.style.color=a.dist2color(m.distFunc,p.dist,k);v.innerText=m.getLabelFromIndex(p.index);var u=document.createElement("div");u.className="value";u.innerText=p.dist.toFixed(3);r.appendChild(v);r.appendChild(u);v=document.createElement("div");v.className="bar";u=document.createElement("div");u.className="fill";u.style.borderTopColor=a.dist2color(m.distFunc,p.dist,k);u.style.width=100*a.normalizeDist(m.distFunc,p.dist,k)+"%";v.appendChild(u);for(u=1;4>u;u++){var w=document.createElement("div");w.className=
-  "tick";w.style.left=100*u/4+"%";v.appendChild(w)}t.appendChild(r);t.appendChild(v);q.appendChild(t);h.appendChild(q);t.onmouseenter=function(){g.projectorEventContext.notifyHoverOverPoint(p.index)};t.onmouseleave=function(){g.projectorEventContext.notifyHoverOverPoint(null)};t.onclick=function(){g.projectorEventContext.notifySelectionChanged([p.index])}},m=this,n=0;n<e.length;n++)l(n)}};d.prototype.updateFilterButtons=function(e){1<e?(this.setFilterButton.innerText="Isolate "+e+" points",this.setFilterButton.disabled=
+  "tick";w.style.left=100*u/4+"%";v.appendChild(w)}t.appendChild(r);t.appendChild(v);q.appendChild(t);h.appendChild(q);t.onmouseenter=function(){g.projectorEventContext.notifyHoverOverPoint(p.index)};t.onmouseleave=function(){g.projectorEventContext.notifyHoverOverPoint(null)};t.onclick=function(){g.projectorEventContext.notifySelectionChanged([p.index])}},m=this,n=0;n<e.length;n++)l(n)}};d.prototype.updateFilterButtons=function(e){1<e?(this.setFilterButton.innerText=""+e+" წერტილის იზოლირება",this.setFilterButton.disabled=
   null,this.clearSelectionButton.disabled=null):(this.setFilterButton.disabled=!0,this.clearSelectionButton.disabled=!0)};d.prototype.setupUI=function(e){var g=this;this.distFunc=a.vector.cosDist;var h=this.querySelector(".distance a.euclidean");h.onclick=function(){for(var l=g.querySelectorAll(".distance a"),m=0;m<l.length;m++)a.util.classed(l[m],"selected",!1);a.util.classed(h,"selected",!0);g.distFunc=a.vector.dist;g.projectorEventContext.notifyDistanceMetricChanged(g.distFunc);l=e.dataSet.findNeighbors(g.selectedPointIndices[0],
   g.distFunc,g.numNN);g.updateNeighborsList(l)};var k=this.querySelector(".distance a.cosine");k.onclick=function(){for(var l=g.querySelectorAll(".distance a"),m=0;m<l.length;m++)a.util.classed(l[m],"selected",!1);a.util.classed(k,"selected",!0);g.distFunc=a.vector.cosDist;g.projectorEventContext.notifyDistanceMetricChanged(g.distFunc);l=e.dataSet.findNeighbors(g.selectedPointIndices[0],g.distFunc,g.numNN);g.updateNeighborsList(l)};this.searchBox.registerInputChangedListener(function(l,m){null==l||
   ""===l.trim()?(g.searchBox.message="",g.projectorEventContext.notifySelectionChanged([])):(l=e.dataSet.query(l,m,g.selectedMetadataField),g.searchBox.message=0===l.length?"0 matches.":l.length+" matches.",g.projectorEventContext.notifySelectionChanged(l))});this.setFilterButton.onclick=function(){var l=g.selectedPointIndices.concat(g.neighborsOfFirstPoint.map(function(m){return m.index}));e.filterDataset(l);g.enableResetFilterButton(!0);g.updateFilterButtons(0)};this.resetFilterButton.onclick=function(){e.resetFilterDataset();
@@ -12907,12 +12915,12 @@
           </div>
         </div>
         <p id="pca-sampling" class="notice">
-          PCA is approximate.
+          ძირითად კომპონენტთა ანალიზი (PCA) მიახლოებითია.
           <paper-icon-button icon="help" class="help-icon"></paper-icon-button>
         
         <div id="total-variance">Total variance</div>
         <paper-tooltip for="pca-sampling" position="top" animation-delay="0" fit-to-visible-bounds>
-          For fast results, the data was sampled to [[getPcaSampleSizeText()]] points and randomly projected down to [[getPcaSampledDimText()]] dimensions.
+          სწრაფი შედეგებისთვის, სრული მონაცემებიდან შერჩეულია [[getPcaSampleSizeText()]] წერტილი და შემთხვევითობის პრინციპით პროექცირებულია [[getPcaSampledDimText()]] განზომილებაზე.
         </paper-tooltip>
       </div>
       
@@ -12960,7 +12968,7 @@
   this.dataSet;if(null!=e){var g=a.getProjectionComponents("tsne",[0,1,this.tSNEis3d?2:null]);e=new a.Projection("tsne",g,this.tSNEis3d?3:2,e);this.projector.setProjection(e);this.dataSet.hasTSNERun?this.projector.notifyProjectionPositionsUpdated():this.runTSNE()}};d.prototype.runTSNE=function(){var e=this,g=!1;this.runTsneButton.innerText="Stop";this.runTsneButton.disabled=!0;this.pauseTsneButton.innerText="Pause";this.pauseTsneButton.disabled=!0;this.perturbTsneButton.disabled=!1;this.dataSet.projectTSNE(this.perplexity,
   this.learningRate,this.tSNEis3d?3:2,function(h){null!=h?(e.runTsneButton.disabled=!1,e.pauseTsneButton.disabled=!1,e.iterationLabelTsne.innerText=""+h,e.projector.notifyProjectionPositionsUpdated(),!g&&e.dataSet.projections.tsne&&(e.projector.onProjectionChanged(),g=!0)):(e.runTsneButton.innerText="Re-run",e.runTsneButton.disabled=!1,e.pauseTsneButton.innerText="Pause",e.pauseTsneButton.disabled=!0,e.perturbTsneButton.disabled=!0,e.projector.onProjectionChanged())})};d.prototype.showUmap=function(){var e=
   this.dataSet;if(null!=e){var g=a.getProjectionComponents("umap",[0,1,this.umapIs3d?2:null]);e=new a.Projection("umap",g,this.umapIs3d?3:2,e);this.projector.setProjection(e);this.dataSet.hasUmapRun?this.projector.notifyProjectionPositionsUpdated():this.runUmap()}};d.prototype.runUmap=function(){var e=this,g=!1;this.runUmapButton.disabled=!0;this.dataSet.projectUmap(this.umapIs3d?3:2,this.umapNeighbors,function(h){null!=h?(e.runUmapButton.disabled=!1,e.projector.notifyProjectionPositionsUpdated(),!g&&
-  e.dataSet.projections.umap&&(e.projector.onProjectionChanged(),g=!0)):(e.runUmapButton.innerText="Re-run",e.runUmapButton.disabled=!1,e.projector.onProjectionChanged())})};d.prototype.showPCAIfEnabled=function(){this.polymerChangesTriggerReprojection&&this.showPCA()};d.prototype.updateTotalVarianceMessage=function(){var e=this.dataSet.fracVariancesExplained,g=e[this.pcaX]+e[this.pcaY];this.pcaIs3d&&(g+=e[this.pcaZ]);e="Total variance described: "+((100*g).toFixed(1)+"%.");this.querySelector("#total-variance").innerHTML=
+  e.dataSet.projections.umap&&(e.projector.onProjectionChanged(),g=!0)):(e.runUmapButton.innerText="Re-run",e.runUmapButton.disabled=!1,e.projector.onProjectionChanged())})};d.prototype.showPCAIfEnabled=function(){this.polymerChangesTriggerReprojection&&this.showPCA()};d.prototype.updateTotalVarianceMessage=function(){var e=this.dataSet.fracVariancesExplained,g=e[this.pcaX]+e[this.pcaY];this.pcaIs3d&&(g+=e[this.pcaZ]);e="აღწერილი სრული გადახრა: "+((100*g).toFixed(1)+"%.");this.querySelector("#total-variance").innerHTML=
   e};d.prototype.showPCA=function(){var e=this;null!=this.dataSet&&this.dataSet.projectPCA().then(function(){var g=a.getProjectionComponents("pca",[e.pcaX,e.pcaY,e.pcaZ]);g=new a.Projection("pca",g,e.pcaIs3d?3:2,e.dataSet);e.projector.setProjection(g);g=Math.min(10,e.dataSet.dim[1]);e.updateTotalVarianceMessage();e.pcaComponents=a.util.range(g).map(function(h){return{id:h,componentNumber:h+1,percVariance:(100*e.dataSet.fracVariancesExplained[h]).toFixed(1)}})})};d.prototype.reprojectCustom=function(){if(null!=
   this.centroids&&null!=this.centroids.xLeft&&null!=this.centroids.xRight&&null!=this.centroids.yUp&&null!=this.centroids.yDown){var e=a.vector.sub(this.centroids.xRight,this.centroids.xLeft);this.dataSet.projectLinear(e,"linear-x");e=a.vector.sub(this.centroids.yUp,this.centroids.yDown);this.dataSet.projectLinear(e,"linear-y");e=a.getProjectionComponents("custom",["x","y"]);e=new a.Projection("custom",e,2,this.dataSet);this.projector.setProjection(e)}};d.prototype.clearCentroids=function(){this.centroids=
   {xLeft:null,xRight:null,yUp:null,yDown:null};this.allCentroid=null};d.prototype._customSelectedSearchByMetadataOptionChanged=function(){!1!==this.polymerChangesTriggerReprojection&&"custom"===this.currentProjection&&(this.computeAllCentroids(),this.reprojectCustom())};d.prototype.setupCustomProjectionInputFields=function(){this.customProjectionXLeftInput=this.setupCustomProjectionInputField("xLeft");this.customProjectionXRightInput=this.setupCustomProjectionInputField("xRight");this.customProjectionYUpInput=
@@ -13018,6 +13026,12 @@
     height: 100%;
     position: absolute;
     width: 100%;
+  }
+
+  @media only screen and (max-width: 640px) {
+    #left-pane, #right-pane {
+      display: none !important;
+    }
   }
   
   #left-pane {
@@ -13219,20 +13233,20 @@
     </div>
     <div id="main" class="ink-panel">
       <div class="ink-panel-menubar">
-        <paper-icon-button id="selectMode" alt="Bounding box selection" toggles icon="image:photo-size-select-small"></paper-icon-button>
-        <paper-tooltip for="selectMode" position="bottom" animation-delay="0" fit-to-visible-bounds>Bounding box selection</paper-tooltip>
+        <paper-icon-button id="selectMode" alt="საზღვრების მონიშვნა" toggles icon="image:photo-size-select-small"></paper-icon-button>
+        <paper-tooltip for="selectMode" position="bottom" animation-delay="0" fit-to-visible-bounds>საზღვრების მონიშვნა</paper-tooltip>
   
-        <paper-icon-button id="editMode" alt="Edit current selection" toggles icon="image:exposure"></paper-icon-button>
-        <paper-tooltip for="editMode" position="bottom" animation-delay="0" fit-to-visible-bounds>Edit current selection</paper-tooltip>
+        <paper-icon-button id="editMode" alt="არსებული მონიშვნის ჩასწორება" toggles icon="image:exposure"></paper-icon-button>
+        <paper-tooltip for="editMode" position="bottom" animation-delay="0" fit-to-visible-bounds>არსებული მონიშვნის ჩასწორება</paper-tooltip>
   
-        <paper-icon-button id="nightDayMode" alt="Enable/disable night mode" toggles icon="image:brightness-2"></paper-icon-button>
+        <paper-icon-button id="nightDayMode" style="display:none" alt="Enable/disable night mode" toggles icon="image:brightness-2"></paper-icon-button>
         <paper-tooltip for="nightDayMode" position="bottom" animation-delay="0" fit-to-visible-bounds>Enable/disable night mode</paper-tooltip>
   
-        <paper-icon-button id="labels3DMode" alt="Enable/disable 3D labels mode" toggles icon="font-download"></paper-icon-button>
+        <paper-icon-button id="labels3DMode" style="display:none" alt="Enable/disable 3D labels mode" toggles icon="font-download"></paper-icon-button>
         <paper-tooltip for="labels3DMode" position="bottom" animation-delay="0" fit-to-visible-bounds>Enable/disable 3D labels mode</paper-tooltip>
         <div class="status-bar-panel">
-          <div class="status-bar-entry">Points: <span class="numDataPoints">Loading...</span></div>
-          <div class="status-bar-entry">Dimension: <span class="dim">Loading...</span></div>
+          <div class="status-bar-entry">წერტილები: <span class="numDataPoints">იტვირთება...</span></div>
+          <div class="status-bar-entry">განზომილება: <span class="dim">იტვირთება...</span></div>
           <div id="status-bar" class="status-bar-entry" style="display: none;"></div>
         </div>
         <div class="ink-fabs">
@@ -13245,7 +13259,7 @@
           <svg id="selector"></svg>
         </div>
         <vz-projector-metadata-card id="metadata-card"></vz-projector-metadata-card>
-        <paper-icon-button raised onclick="help3dDialog.open()" icon="help-outline" id="help-3d-icon"></paper-icon-button>
+        <paper-icon-button raised style="display:none" onclick="help3dDialog.open()" icon="help-outline" id="help-3d-icon"></paper-icon-button>
         <paper-tooltip animation-delay="0" for="help-3d-icon">Help with interaction controls.</paper-tooltip>
         <paper-dialog id="help3dDialog" with-backdrop>
           <div class="main" dialog-confirm autofocus>
