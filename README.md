@@ -1,6 +1,7 @@
 # Anbani.ge
 > version 3.2  
 > GH serving `./docs`  
+> API: https://api.anbani.ge  
 > Production: https://anbani.ge  
 > Development: https://next.anbani.ge  
 
