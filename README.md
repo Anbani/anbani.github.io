@@ -8,7 +8,7 @@
 
 | Date | Version | Notes |
 |------|---------|-------|
-| 2022.Q1 | 3.2 | Added [Georgian Wordnet](https://anbani.ge/wordnet) - an AI-enriched synonym and association lexicon (early public alpha release).  |
+| 2022.Q2 | 3.2 | Added [Georgian Wordnet](https://anbani.ge/wordnet) - an AI-enriched synonym and association lexicon (early public alpha release).  |
 | 2022.Q1 | 3.1 | Added [Georgian TextArt Generator](https://anbani.ge/textart) and migrated [Georgian Word Embeddings](https://anbani.ge/embeddings) |
 | 2021.Q4 | 3.0 | Upgraded to React/Next build with better [Converter](https://anbani.ge/converter), [Learning page](https://anbani.ge/learn), [Virtual Keyboard](https://anbani.ge/keyboard) and all new [Georgian Calendar](https://anbani.ge/calendar) |
 | 2017.Q2 | 2.x | Upgraded to VueJS build |
