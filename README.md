@@ -1,5 +1,16 @@
 # Anbani.ge
-> version 3.1  
+> version 3.2  
 > GH serving `./docs`  
 > Production: https://anbani.ge  
 > Development: https://next.anbani.ge  
+
+## Release notes
+
+| Date | Version | Notes |
+|------|---------|-------|
+| 2022.Q1 | 3.2 | Added [Georgian Wordnet](https://anbani.ge/wordnet) - an AI-enriched synonym and association lexicon (early public alpha release).  |
+| 2022.Q1 | 3.1 | Added [Georgian TextArt Generator](https://anbani.ge/textart) and migrated [Georgian Word Embeddings](https://anbani.ge/embeddings) |
+| 2021.Q4 | 3.0 | Upgraded to React/Next build with better [Converter](https://anbani.ge/converter), [Learning page](https://anbani.ge/learn), [Virtual Keyboard](https://anbani.ge/keyboard) and all new [Georgian Calendar](https://anbani.ge/calendar) |
+| 2017.Q2 | 2.x | Upgraded to VueJS build |
+| 2016.Q1 | 1.x | Upgraded to PHP/Laravel build |
+| 2015.Q4 | 0.x | Anbani.ge the first Asomtavruli-Mkhedruli converter app was born (vanilla Javascript) |
