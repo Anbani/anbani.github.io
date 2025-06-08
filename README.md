@@ -9,6 +9,7 @@
 
 | Date | Version | Notes |
 |------|---------|-------|
+| 2025.Q2 | 3.4 | Upgraded to latest `anbani` and `anbani-textart` packages; Added analytics; |
 | 2022.Q2 | 3.3 | Added [Anbani Report](https://next.anbani.ge/ka/about) (public analytics dashboard assembled in Google Data Studio). Upgraded to [Anbani/TextArt 1.5.0](https://github.com/anbani/textart) with new fonts added! |
 | 2022.Q2 | 3.2 | Added [Georgian Wordnet](https://anbani.ge/wordnet) - an AI-enriched synonym and association lexicon (early public alpha release).  |
 | 2022.Q1 | 3.1 | Added [Georgian TextArt Generator](https://anbani.ge/textart) and migrated [Georgian Word Embeddings](https://anbani.ge/embeddings) |
