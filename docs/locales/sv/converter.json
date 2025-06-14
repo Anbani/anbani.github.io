@@ -13,7 +13,7 @@
   "ხუცურში": "Till Khutsuri",
   "შანიძისეულში": "Till Shanidze",
   "ტფილელისეულში": "Till Tfileliseuli",
-  "სრულმთავრულში": "Till Fullmtavruli",
+  "სასათაურეში": "Till Header",
   "ჰომოგლიფურში": "Till Homoglyf",
   "ფონეტიკურში": "Till IPA",
   "ტრანსკრიფციაში": "Till transkription",
@@ -30,7 +30,7 @@
     "khutsuri": "Asomtavrul-Nuskhuri-manus (Khutsuri)",
     "shanidziseuli": "Asomtavruli-Mkhedruli-manus (Akaki Shanidze)",
     "tfileliseuli": "Mkhedrul-Mtavruli-manus (Nikoloz Tfileli)",
-    "anbanismtavruli": "Asomtavruli-Mtavruli titelmanus",
+    "sasataure": "Asomtavruli-Mtavruli titelmanus",
     "homoglyph": "Homoglyf omvandlare",
     "phonetic": "Fonetisk (IPA) omvandlare",
     "common": "Georgisk transkriptionsomvandlare",
@@ -205,7 +205,7 @@
       },
       "subtext": "Konvertera vilken text som helst i Asomtavruli-Mkhedruli-stil utan att installera ett tangentbord. Använd apostrofsymbolen för att höja den första bokstaven i ett ord, till exempel: d '"
     },
-    "anbanismtavruli": {
+    "sasataure": {
       "header": "Konvertera till Fullcaps-ordning",
       "title": "Fullcaps tangentbord och omvandlare",
       "tags": {

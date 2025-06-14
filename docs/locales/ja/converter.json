@@ -13,7 +13,7 @@
   "ხუცურში": "To Khutsuri",
   "შანიძისეულში": "To Shanidze",
   "ტფილელისეულში": "Tfileliseuliへ",
-  "სრულმთავრულში": "Fullmtavruliへ",
+  "სასათაურეში": "Headerへ",
   "ჰომოგლიფურში": "ホモグリフへ",
   "ფონეტიკურში": "IPAへ",
   "ტრანსკრიფციაში": "転写へ",
@@ -30,7 +30,7 @@
     "khutsuri": "Asomtavrul-Nuskhuriスクリプト（Khutsuri）",
     "shanidziseuli": "Asomtavruli-Mkhedruliスクリプト（Akaki Shanidze）",
     "tfileliseuli": "Mkhedrul-Mtavruliスクリプト（Nikoloz Tfileli）",
-    "anbanismtavruli": "Asomtavruli-Mtavruliタイトルスクリプト",
+    "sasataure": "Asomtavruli-Mtavruliタイトルスクリプト",
     "homoglyph": "ホモグリフコンバーター",
     "phonetic": "ふりがな（IPA）コンバータ",
     "common": "グルジアの転写コンバーター",
@@ -205,7 +205,7 @@
       },
       "subtext": "キーボードをインストールせずに、Asomtavruli-Mkhedruliスタイルのテキストを変換します。アポストロフィ記号を使用して、単語の最初の文字を上げます。例：d '"
     },
-    "anbanismtavruli": {
+    "sasataure": {
       "header": "フルキャップオーダーに変換",
       "title": "フルキャップキーボードとコンバーター",
       "tags": {

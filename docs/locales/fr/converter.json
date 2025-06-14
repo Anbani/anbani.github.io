@@ -13,7 +13,7 @@
   "ხუცურში": "Vers Khutsuri",
   "შანიძისეულში": "À Shanidzé",
   "ტფილელისეულში": "Vers Tfiliseuli",
-  "სრულმთავრულში": "À Fullmtavruli",
+  "სასათაურეში": "À Header",
   "ჰომოგლიფურში": "Homoglyphe",
   "ფონეტიკურში": "Vers IPA",
   "ტრანსკრიფციაში": "À la transcription",
@@ -30,7 +30,7 @@
     "khutsuri": "Écriture Asomtavrul-Nuskhuri (Khutsuri)",
     "shanidziseuli": "Écriture Asomtavruli-Mkhedruli (Akaki Shanidze)",
     "tfileliseuli": "Écriture Mkhedrul-Mtavruli (Nikoloz Tfileli)",
-    "anbanismtavruli": "Scénario du titre Asomtavruli-Mtavruli",
+    "sasataure": "Scénario du titre Asomtavruli-Mtavruli",
     "homoglyph": "Convertisseur homoglyphique",
     "phonetic": "Convertisseur phonétique (IPA)",
     "common": "Convertisseur de transcription géorgien",
@@ -205,7 +205,7 @@
       },
       "subtext": "Convertissez n'importe quel texte dans le style Asomtavruli-Mkhedruli sans installer de clavier. Utilisez le symbole apostrophe pour élever la première lettre d'un mot, par exemple : d '"
     },
-    "anbanismtavruli": {
+    "sasataure": {
       "header": "Convertir en commande Fullcaps",
       "title": "Clavier et convertisseur Fullcaps",
       "tags": {

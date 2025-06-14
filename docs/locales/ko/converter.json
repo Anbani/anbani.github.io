@@ -13,7 +13,7 @@
   "ხუცურში": "To Khutsuri",
   "შანიძისეულში": "To Shanidze",
   "ტფილელისეულში": "트필리술리로",
-  "სრულმთავრულში": "풀엠타브룰리로",
+  "სასათაურეში": "풀엠타브룰리로",
   "ჰომოგლიფურში": "동형문자로",
   "ფონეტიკურში": "IPA로",
   "ტრანსკრიფციაში": "전사로",
@@ -30,7 +30,7 @@
     "khutsuri": "Asomtavrul-Nuskhuri 스크립트(Khuturi)",
     "shanidziseuli": "Asomtavruli-Mkhedruli 스크립트(Akaki Shanidze)",
     "tfileliseuli": "Mkhedrul-Mtavruli 스크립트(Nikoloz Tfileli)",
-    "anbanismtavruli": "Asomtavruli-Mtavruli 타이틀 스크립트",
+    "sasataure": "Asomtavruli-Mtavruli 타이틀 스크립트",
     "homoglyph": "동형 변환기",
     "phonetic": "음성(IPA) 변환기",
     "common": "그루지야어 전사 변환기",
@@ -205,7 +205,7 @@
       },
       "subtext": "키보드를 설치하지 않고 Asomtavruli-Mkhedruli 스타일의 텍스트를 변환합니다. 단어의 첫 글자를 높이려면 아포스트로피 기호를 사용하십시오(예: d '"
     },
-    "anbanismtavruli": {
+    "sasataure": {
       "header": "Fullcaps 주문으로 변환",
       "title": "Fullcaps 키보드 및 변환기",
       "tags": {
