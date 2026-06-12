@@ -13,7 +13,7 @@
   "ხუცურში": "Do Khutsuri",
   "შანიძისეულში": "Do Shanidze",
   "ტფილელისეულში": "Do Tfileliseuli",
-  "სრულმთავრულში": "Do Fullmtavruli",
+  "სასათაურეში": "Do Header",
   "ჰომოგლიფურში": "Do homoglifu",
   "ფონეტიკურში": "Do IPA",
   "ტრანსკრიფციაში": "Do transkrypcji",
@@ -30,7 +30,7 @@
     "khutsuri": "Pismo Asomtavrul-Nuskhuri (khutsuri)",
     "shanidziseuli": "Pismo Asomtavruli-Mkhedruli (Akaki Shanidze)",
     "tfileliseuli": "Pismo Mkhedrul-Mtavruli (Nikoloz Tfileli)",
-    "anbanismtavruli": "Asomtavruli-Mtavruli skrypt tytułowy",
+    "sasataure": "Asomtavruli-Mtavruli skrypt tytułowy",
     "homoglyph": "Konwerter homoglificzny",
     "phonetic": "Konwerter fonetyczny (IPA)",
     "common": "Gruziński konwerter transkrypcji",
@@ -205,7 +205,7 @@
       },
       "subtext": "Konwertuj dowolny tekst w stylu Asomtavruli-Mkhedruli bez instalowania klawiatury. Użyj symbolu apostrofu, aby podnieść pierwszą literę słowa, na przykład: d '"
     },
-    "anbanismtavruli": {
+    "sasataure": {
       "header": "Konwertuj na zamówienie Fullcaps",
       "title": "Klawiatura i konwerter Fullcaps",
       "tags": {
