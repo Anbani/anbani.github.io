@@ -27,13 +27,13 @@ self.__BUILD_MANIFEST = {
     "static/chunks/1nlvp29z-ewq4.js"
   ],
   "/[locale]/keyboard": [
-    "static/chunks/1hp4dbrjuht_l.js"
+    "static/chunks/3a32bhzjfl-u9.js"
   ],
   "/[locale]/learn": [
     "static/chunks/0erlf_k6pvldm.js"
   ],
   "/[locale]/textart": [
-    "static/chunks/3h3m1enp7t85p.js"
+    "static/chunks/2jk-be42_ahvy.js"
   ],
   "/[locale]/wordnet": [
     "static/chunks/1nsi1j1q_7opn.js"
