@@ -13,7 +13,7 @@
   "ხუცურში": "Nach Khutsuri",
   "შანიძისეულში": "Nach Shanidze",
   "ტფილელისეულში": "Nach Tfileliseuli",
-  "სასათაურეში": "Nach Header",
+  "სრულმთავრულში": "Nach Fullmtavruli",
   "ჰომოგლიფურში": "Zur Homoglyphe",
   "ფონეტიკურში": "Zum IPA",
   "ტრანსკრიფციაში": "Zur Transkription",
@@ -30,7 +30,7 @@
     "khutsuri": "Asomtavrul-Nuskhuri-Schrift (Khutsuri)",
     "shanidziseuli": "Asomtavruli-Mkhedruli-Skript (Akaki Shanidze)",
     "tfileliseuli": "Mkhedrul-Mtavruli-Skript (Nikoloz Tfileli)",
-    "sasataure": "Asomtavruli-Mtavruli-Titelskript",
+    "anbanismtavruli": "Asomtavruli-Mtavruli-Titelskript",
     "homoglyph": "Homoglyphischer Konverter",
     "phonetic": "Phonetischer (IPA) Konverter",
     "common": "Georgischer Transkriptionskonverter",
@@ -205,7 +205,7 @@
       },
       "subtext": "Konvertieren Sie beliebigen Text im Asomtavruli-Mkhedruli-Stil, ohne eine Tastatur zu installieren. Verwenden Sie das Apostroph-Symbol, um den ersten Buchstaben eines Wortes zu erhöhen, zum Beispiel: d '"
     },
-    "sasataure": {
+    "anbanismtavruli": {
       "header": "In Fullcaps-Reihenfolge umwandeln",
       "title": "Fullcaps-Tastatur und Konverter",
       "tags": {

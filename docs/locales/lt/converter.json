@@ -13,7 +13,7 @@
   "ხუცურში": "Į Khutsuri",
   "შანიძისეულში": "Šanidzei",
   "ტფილელისეულში": "Į Tfileliseuli",
-  "სასათაურეში": "Į Header",
+  "სრულმთავრულში": "Į Fullmtavruli",
   "ჰომოგლიფურში": "Prie homoglifo",
   "ფონეტიკურში": "Į IPA",
   "ტრანსკრიფციაში": "Į transkripciją",
@@ -30,7 +30,7 @@
     "khutsuri": "Asomtavrul-Nuskhuri raštas (Chutsuri)",
     "shanidziseuli": "Asomtavruli-Mkhedruli scenarijus (Akaki Shanidze)",
     "tfileliseuli": "Mkhedrul-Mtavruli scenarijus (Nikoloz Tfileli)",
-    "sasataure": "Asomtavruli-Mtavruli pavadinimo scenarijus",
+    "anbanismtavruli": "Asomtavruli-Mtavruli pavadinimo scenarijus",
     "homoglyph": "Homglifų konverteris",
     "phonetic": "Fonetinis (IPA) keitiklis",
     "common": "Gruzinų kalbos transkripcijos keitiklis",
@@ -205,7 +205,7 @@
       },
       "subtext": "Konvertuokite bet kokį tekstą Asomtavruli-Mkhedruli stiliumi neįdiegę klaviatūros. Naudokite apostrofo simbolį, kad pakeltumėte pirmąją žodžio raidę, pavyzdžiui: d '"
     },
-    "sasataure": {
+    "anbanismtavruli": {
       "header": "Konvertuoti į Fullcaps užsakymą",
       "title": "Fullcaps klaviatūra ir konverteris",
       "tags": {

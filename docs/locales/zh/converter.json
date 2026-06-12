@@ -13,7 +13,7 @@
   "ხუცურში": "前往呼苏里",
   "შანიძისეულში": "前往沙尼泽",
   "ტფილელისეულში": "致特菲莱塞利",
-  "სასათაურეში": "至福尔姆塔夫鲁利",
+  "სრულმთავრულში": "至福尔姆塔夫鲁利",
   "ჰომოგლიფურში": "同形文字",
   "ფონეტიკურში": "到国际音标",
   "ტრანსკრიფციაში": "转录",
@@ -30,7 +30,7 @@
     "khutsuri": "Asomtavrul-Nuskhuri 文字 (Khutsuri)",
     "shanidziseuli": "Asomtavruli-Mkhedruli 脚本 (Akaki Shanidze)",
     "tfileliseuli": "Mkhedrul-Mtavruli 脚本 (Nikoloz Tfileli)",
-    "sasataure": "Asomtavruli-Mtavruli 标题脚本",
+    "anbanismtavruli": "Asomtavruli-Mtavruli 标题脚本",
     "homoglyph": "同形转换器",
     "phonetic": "音标 (IPA) 转换器",
     "common": "格鲁吉亚语转录转换器",
@@ -205,7 +205,7 @@
       },
       "subtext": "无需安装键盘即可转换任何 Asomtavruli-Mkhedruli 风格的文本。使用撇号来提高单词的第一个字母，例如：d '"
     },
-    "sasataure": {
+    "anbanismtavruli": {
       "header": "转换为全大写顺序",
       "title": "全大写键盘和转换器",
       "tags": {

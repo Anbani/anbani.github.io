@@ -6,7 +6,6 @@
   "ასომთავრულიდან": "From Asomtavruli",
   "ნუსხურიდან": "From Nuskhuri",
   "აკადნუსხურიდან": "From Acadnusxuri",
-  "ბრაილიდან": "From Braille",
   "მხედრულში": "To Mkhedruli",
   "მთავრულში": "To Mtavruli",
   "ასომთავრულში": "To Asomtavruli",
@@ -14,10 +13,9 @@
   "ხუცურში": "To Khutsuri",
   "შანიძისეულში": "To Shanidze",
   "ტფილელისეულში": "To Tfileliseuli",
-  "სასათაურეში": "To Header",
+  "სრულმთავრულში": "To Fullmtavruli",
   "ჰომოგლიფურში": "To Homoglyph",
   "ფონეტიკურში": "To IPA",
-  "ბრაილში": "To Braille",
   "ტრანსკრიფციაში": "To Transcription",
   "ბერძნულში": "To Greek",
   "კირილიცაში": "To Cyrillic",
@@ -32,7 +30,7 @@
     "khutsuri": "Asomtavrul-Nuskhuri script (Khutsuri)",
     "shanidziseuli": "Asomtavruli-Mkhedruli script (Akaki Shanidze)",
     "tfileliseuli": "Mkhedrul-Mtavruli script (Nikoloz Tfileli)",
-    "sasataure": "Asomtavruli-Mtavruli title script",
+    "anbanismtavruli": "Asomtavruli-Mtavruli title script",
     "homoglyph": "Homoglyphic converter",
     "phonetic": "Phonetic (IPA) converter",
     "common": "Georgian transcription converter",
@@ -207,7 +205,7 @@
       },
       "subtext": "Convert any text in Asomtavruli-Mkhedruli style without installing a keyboard. Use the apostrophe symbol to raise the first letter of a word, for example: d '"
     },
-    "sasataure": {
+    "anbanismtavruli": {
       "header": "Convert to Fullcaps order",
       "title": "Fullcaps keyboard and converter",
       "tags": {
