@@ -27,7 +27,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/1nlvp29z-ewq4.js"
   ],
   "/[locale]/keyboard": [
-    "static/chunks/27_v8dg0-8zj8.js"
+    "static/chunks/1hp4dbrjuht_l.js"
   ],
   "/[locale]/learn": [
     "static/chunks/0erlf_k6pvldm.js"
