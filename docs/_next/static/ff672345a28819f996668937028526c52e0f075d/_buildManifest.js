@@ -36,7 +36,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/2dc3k4ut_78cm.js"
   ],
   "/[locale]/wordnet": [
-    "static/chunks/38ws7ub0entoc.js"
+    "static/chunks/3gngr5mjj8nsz.js"
   ],
   "/_error": [
     "static/chunks/420xcuaej9fbl.js"
