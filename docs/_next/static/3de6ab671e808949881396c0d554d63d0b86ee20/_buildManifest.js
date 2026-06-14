@@ -81,7 +81,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/1ogh8fo5cxx5u.js"
   ],
   "/privacy_policy": [
-    "static/chunks/3q31jychflpo8.js"
+    "static/chunks/33o3mb59ze9ga.js"
   ],
   "/sample": [
     "static/chunks/00zdn06qf90w8.js"
