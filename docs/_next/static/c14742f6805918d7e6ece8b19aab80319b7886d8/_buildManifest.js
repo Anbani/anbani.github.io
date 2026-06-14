@@ -15,7 +15,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/0ldwsiq62ao0p.js"
   ],
   "/[locale]/calendar": [
-    "static/chunks/3hto47noyqu4r.js"
+    "static/chunks/3yrfhoghfy93f.js"
   ],
   "/[locale]/converter": [
     "static/chunks/2lw404hl4uvf-.js"
