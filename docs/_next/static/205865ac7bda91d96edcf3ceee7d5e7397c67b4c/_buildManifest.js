@@ -18,10 +18,10 @@ self.__BUILD_MANIFEST = {
     "static/chunks/3-ky17e279ok6.js"
   ],
   "/[locale]/converter": [
-    "static/chunks/0p0s9jxt2wab8.js"
+    "static/chunks/14fwt0jpyxy94.js"
   ],
   "/[locale]/converter/[...slug]": [
-    "static/chunks/3r85vgchsv2l_.js"
+    "static/chunks/39kbhb31iohk_.js"
   ],
   "/[locale]/embeddings": [
     "static/chunks/2arn_usasp5yi.js"
