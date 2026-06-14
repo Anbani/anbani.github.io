@@ -9,13 +9,13 @@ self.__BUILD_MANIFEST = {
     "static/chunks/2-cna8s7psmct.js"
   ],
   "/[locale]/404": [
-    "static/chunks/1rsamdugrypka.js"
+    "static/chunks/2lx83s9yf7gfc.js"
   ],
   "/[locale]/about": [
-    "static/chunks/2e1ptrudgz6wk.js"
+    "static/chunks/1s3ij9h4pnjvp.js"
   ],
   "/[locale]/calendar": [
-    "static/chunks/1me4zpe4usn6_.js"
+    "static/chunks/0rfkv1yv0iy05.js"
   ],
   "/[locale]/converter": [
     "static/chunks/1rvxg_ahgqebs.js"
@@ -30,7 +30,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/37nxhpzp96g4j.js"
   ],
   "/[locale]/learn": [
-    "static/chunks/1hxyk44q64vcx.js"
+    "static/chunks/2-anakvqhf7e-.js"
   ],
   "/[locale]/textart": [
     "static/chunks/2dc3k4ut_78cm.js"

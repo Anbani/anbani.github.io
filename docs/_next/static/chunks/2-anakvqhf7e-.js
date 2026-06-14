@@ -1,9 +1,9 @@
 __turbopack_load_page_chunks__("/[locale]/learn", [
-  "static/chunks/12qwod4-ag02b.js",
+  "static/chunks/30-5p1txiq8er.js",
   "static/chunks/07-fuwcgu-qn7.js",
   "static/chunks/3fc7vm-q13cox.js",
-  "static/chunks/3r2geiuqv23yz.js",
-  "static/chunks/2gnbr86za9jo7.js",
   "static/chunks/1ngra23y-ka96.js",
-  "static/chunks/turbopack-0p9ndu7dqoamx.js"
+  "static/chunks/2gnbr86za9jo7.js",
+  "static/chunks/3r2geiuqv23yz.js",
+  "static/chunks/turbopack-0mfvgmk92xi_z.js"
 ])
