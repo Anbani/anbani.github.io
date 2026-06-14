@@ -9,34 +9,34 @@ self.__BUILD_MANIFEST = {
     "static/chunks/2-cna8s7psmct.js"
   ],
   "/[locale]/404": [
-    "static/chunks/42nl4pxw0m166.js"
+    "static/chunks/1xm514cbni93h.js"
   ],
   "/[locale]/about": [
-    "static/chunks/0ldwsiq62ao0p.js"
+    "static/chunks/42g479txww814.js"
   ],
   "/[locale]/calendar": [
-    "static/chunks/3yrfhoghfy93f.js"
+    "static/chunks/1me4zpe4usn6_.js"
   ],
   "/[locale]/converter": [
-    "static/chunks/2lw404hl4uvf-.js"
+    "static/chunks/1rvxg_ahgqebs.js"
   ],
   "/[locale]/converter/[...slug]": [
-    "static/chunks/0ld3vbe7795dh.js"
+    "static/chunks/45ae2e9p202e8.js"
   ],
   "/[locale]/embeddings": [
-    "static/chunks/1nlvp29z-ewq4.js"
+    "static/chunks/2arn_usasp5yi.js"
   ],
   "/[locale]/keyboard": [
-    "static/chunks/16gq-9t083nti.js"
+    "static/chunks/37nxhpzp96g4j.js"
   ],
   "/[locale]/learn": [
-    "static/chunks/0erlf_k6pvldm.js"
+    "static/chunks/1n373g36mc6ho.js"
   ],
   "/[locale]/textart": [
-    "static/chunks/2jk-be42_ahvy.js"
+    "static/chunks/2dc3k4ut_78cm.js"
   ],
   "/[locale]/wordnet": [
-    "static/chunks/1nsi1j1q_7opn.js"
+    "static/chunks/38ws7ub0entoc.js"
   ],
   "/_error": [
     "static/chunks/420xcuaej9fbl.js"
