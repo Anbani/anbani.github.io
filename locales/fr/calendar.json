@@ -1,0 +1,110 @@
+{
+  "label-months-heading": "mois",
+  "label-months-description": "Anciens noms géorgiens des mois de l'année",
+  "label-days-heading": "jours",
+  "label-days-description": "Noms des jours de la semaine en langues géorgiennes",
+  "months": {
+    "1": "Janvier",
+    "2": "Février",
+    "3": "Mars",
+    "4": "Avril",
+    "5": "Peut",
+    "6": "Juin",
+    "7": "Juillet",
+    "8": "Août",
+    "9": "Septembre",
+    "10": "Octobre",
+    "11": "Novembre",
+    "12": "Décembre"
+  },
+  "monthsOld": {
+    "1": "Apnis",
+    "2": "arrosoir",
+    "3": "Mirkan",
+    "4": "Cresson",
+    "5": "de la rose",
+    "6": "Marie",
+    "7": "de Tibi",
+    "8": "charité",
+    "9": "d'Enken",
+    "10": "croit",
+    "11": "Thyriscon",
+    "12": "Thirsden"
+  },
+  "monthsOldMeaning": {
+    "1": "Le mois de Barakyan",
+    "2": "Le mois du printemps céleste",
+    "3": "Mois d'accord et de serment",
+    "4": "Le mois du fleuve et de la vie",
+    "5": "Mois de floraison",
+    "6": "",
+    "7": "mois de tonte",
+    "8": "Mois de la charité",
+    "9": "Mois de transfert",
+    "10": "Mois de récolte",
+    "11": "",
+    "12": ""
+  },
+  "monthsOldDescription": {
+    "1": "Identique à Apan. Dérive probablement du nom Kapani, qui était la divinité de Barakianité dans le panthéon païen.",
+    "2": "Plus tard, selon l'annonce. L'ancien \"Surtskani\" géorgien se compose de deux parties : \"Sur\" et \"Tskani\", cette dernière devrait être l'actuel \"tskali\", et la première le même \"tskali\" sous la forme avestique. Dans le Zend Avesta, parmi les vingt-huit Yazats, on connaissait « Ardavir-sur », qui signifie « source d'eau céleste ».",
+    "3": "Le même Mihrakan. Dérivé du panthéon du mithraïsme zoroastrien où il était la divinité de la lumière, de l'accord et des serments.",
+    "4": "\"Igrika\" ou \"Igrika\", la véritable forme primaire est \"Igri\", \"Igrisa\". Dans le panthéon païen, Igri était une divinité de l'eau qui apparaît également dans le mythe Amirani sous le nom d'Igri-Baton. Avril est la période de crue des rivières, c'est pourquoi ce mois porte également le nom du dieu de l'eau. Le nom de la rivière Enguri vient également d'Igri. Le mot « Igri » lui-même devrait être une modification de « areg » qui signifie en arménien soleil et, au sens figuré, vie.",
+    "5": "La même chute. On suppose que l'ancien nom du mois aurait dû être Nanaisa - c'est-à-dire la déesse de la grande mère, de la fertilité et de la beauté, qui correspondait au \"Inana\" répandu dans l'Orient ancien, Ishtar et en partie à Rhéa-Kybela, il convient de noter que l'un de leurs symboles était bien une rose.",
+    "6": "Plus tard, il fut connu sous le nom de Tibatve. K. Selon Kekelidze, « Mariali » est « Marer » arménien.",
+    "7": "Plus tard, comme d'habitude, c'est hebdomadaire. K. Selon Kekelidze, « Tibisa » (Ttue) est un nom géorgien sacré, indiquant la saison où a lieu la tonte.",
+    "8": "plus tard connu sous le nom de Mariamobi. Peut-être le mois de Kueloba (le mois de la gentillesse). K. Selon Kekelidze, \"Kueltobasa\" (Ttue), rotation nominative - \"Kueltoba\". Selon lui, c'est une erreur d'utiliser le nom comme un \"sub\" du \"que\" de la première partie, et donc d'en faire un \"quele\" et de faire appel à lui. La forme originale est \"Kue\", qui est liée à l'un des mois du calendrier païen iranien \"Farwardin\", au cours duquel se tenait la fête des enfers - \"Fravarta\".",
+    "9": "En Géorgie, la nouvelle année a commencé ce mois-ci, donc, selon l'ancien calendrier païen géorgien, son nom est Akhalslisa et, dans le nom populaire, il s'appelle Enkenistve. Enkenoba était une fête laïque géorgienne et était célébrée le 26 septembre au cours des siècles passés.  Enkenoba, tout comme Enkenya, l'ancienne confirmation d'Enkenya transmettait ses fonctions aux nouveaux, et à Lechkhumi, Enkenoba a duré un mois entier.",
+    "10": "Plus tard, on l’appelle vin. K. Selon Kekelidze, \"Stulisa\" (Ttue) est le saint nom géorgien du mois au cours duquel la récolte ou la récolte a eu lieu, c'est-à-dire la cueillette des fruits.",
+    "11": "Plus tard, il fut connu sous le nom de Giorgobi. K. Selon Kekelidze, il devrait s'agir de « Tiriskani » et non de « Tiriskoni ». Tiriskan est divisé en parties « tiri » et « peau ». La première partie de « Tiris » est le nom de l'ancien mois iranien « Tiris », d'où dérive le nom du quatrième mois du nouveau persan « Tir », ainsi que le nom cappadocien « Tirix-Τήρι-Τειρει » et l'arménien « ΤΡΕ » (c'est aussi le quatrième mois ici). La deuxième terminaison \"kan\" est une terminaison irano-arménienne, comme dans \"froti-kan\" iranien, ou plus tard \"froti-gan\", \"mitrakan\" cappadocien, \"mehekan\" arménien et \"ahekan\".",
+    "12": "plus tard populairement depuis le Christ. K. Selon Kekelidze, il devrait s'agir de « Tirisdini » et non de « Tirisdeni ». Tyrisden est divisé en parties « Tiris » et « Dean ». La première partie de « Tiris » est le nom de l'ancien mois iranien « Tiris », d'où dérive le nom du quatrième mois du nouveau persan « Tir », ainsi que le nom cappadocien « Tirix-Τήρι-Τειρει » et l'arménien « ΤΡΕ » (c'est aussi le quatrième mois ici). La deuxième terminaison « din » est la terminaison iranienne du nom du mois, par exemple Farvar-din."
+  },
+  "days": {
+    "0": "Lundi",
+    "1": "Mardi",
+    "2": "Mercredi",
+    "3": "Jeudi",
+    "4": "Vendredi",
+    "5": "Samedi",
+    "6": "Dimanche"
+  },
+  "daysOld": {
+    "0": "le jour",
+    "1": "jour",
+    "2": "Vendredi",
+    "3": "jour",
+    "4": "je vais me réveiller",
+    "5": "Après-midi",
+    "6": "Après-midi"
+  },
+  "daysOldMeaning": {
+    "0": "jour de la lune",
+    "1": "jour de guerre",
+    "2": "journée en famille",
+    "3": "jour du ciel",
+    "4": "jour de pluie",
+    "5": "des morts",
+    "6": "dimanche"
+  },
+  "daysOldDescription": {
+    "0": "Dérivé de Magrul-lazuri (Tutashkha/Tutachkha) en l'honneur de la divinité lunaire",
+    "1": "Dérivé de Megrul-Svanur (Takhashkha/Takhash) en l'honneur du dieu de la guerre",
+    "2": "Dérivé de Megrul-Lazur-Svanur (Jumashkha/Jumachkha/Jumash) en l'honneur de la divinité de la famille, de la fertilité et de la récolte.",
+    "3": "Dérivé de Megrul-Svanur (tsaashkha/tsash) en l'honneur de la divinité du ciel",
+    "4": "Dérivé de Svanur-Megrul (Vebish/Obishkha) en l'honneur du dieu de l'eau et de la pluie",
+    "5": "Dérivé de Megrul (Shurishkha), le jour de commémoration des âmes des morts influencé par le sabbat juif.",
+    "6": "Dérivé de Svanur-Megrul-Lazuri (Mishladegh/Zhashkha/Bzhachkha) en l'honneur du dieu solaire"
+  },
+  "daysKaldevelta": {
+    "0": "Bonhomme de neige",
+    "1": "Airs",
+    "2": "Ermis",
+    "3": "d'Aphrodite",
+    "4": "de Dios",
+    "5": "de Cronos",
+    "6": "du soleil"
+  },
+  "label-months-in-old-georgian": "Mois en vieux géorgien",
+  "label-days-in-old-georgian": "Jours de la semaine en vieux géorgien",
+  "title": "alphabet჻ calendrier géorgien"
+}

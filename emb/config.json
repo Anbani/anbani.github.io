@@ -1,0 +1,23 @@
+{
+    "embeddings": [
+        {
+            "tensorName": "ვიკიპედია",
+            "tensorShape": [
+                10096,
+                200
+            ],
+            "tensorPath": "/emb/kawiki_min_tensors.bytes",
+            "metadataPath": "/emb/kawiki_min_labels.tsv",
+            "params": "{'alpha': 0.01, 'window': 42, 'negative': 42, 'vector_size': 200} => 32.85% on selection"
+        },
+        {
+            "tensorName": "ვეფხისტყაოსანი",
+            "tensorShape": [
+                14964,
+                300
+            ],
+            "tensorPath": "/emb/vef_95_w2v_tensors.bytes",
+            "metadataPath": "/emb/vef_95_w2v_labels.tsv"
+        }
+    ]
+}

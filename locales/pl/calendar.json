@@ -1,0 +1,110 @@
+{
+  "label-months-heading": "miesiące",
+  "label-months-description": "Stare gruzińskie nazwy miesięcy w roku",
+  "label-days-heading": "dni",
+  "label-days-description": "Nazwy dni tygodnia z języków gruzińskich",
+  "months": {
+    "1": "Styczeń",
+    "2": "Luty",
+    "3": "marzec",
+    "4": "Kwiecień",
+    "5": "Móc",
+    "6": "Czerwiec",
+    "7": "Lipiec",
+    "8": "Sierpień",
+    "9": "Wrzesień",
+    "10": "Październik",
+    "11": "Listopad",
+    "12": "Grudzień"
+  },
+  "monthsOld": {
+    "1": "Apnis",
+    "2": "konewka",
+    "3": "Mirkana",
+    "4": "Rukiew wodna",
+    "5": "z róży",
+    "6": "Marii",
+    "7": "z Tibi",
+    "8": "organizacja pożytku publicznego",
+    "9": "z Enkena",
+    "10": "wierzy",
+    "11": "Tyriskon",
+    "12": "Thirsdena"
+  },
+  "monthsOldMeaning": {
+    "1": "Miesiąc Barakjan",
+    "2": "Miesiąc niebiańskiej wiosny",
+    "3": "Miesiąc porozumienia i przysięgi",
+    "4": "Miesiąc rzeki i życia",
+    "5": "Miesiąc kwitnienia",
+    "6": "",
+    "7": "miesiąc koszenia",
+    "8": "Miesiąc dobroczynności",
+    "9": "Miesiąc transferu",
+    "10": "Miesiąc żniw",
+    "11": "",
+    "12": ""
+  },
+  "monthsOldDescription": {
+    "1": "Podobnie jak Apan. Prawdopodobnie wywodzi się od imienia Kapani, który był bóstwem Barakianizmu w pogańskim panteonie.",
+    "2": "Jak wynika z zapowiedzi, później. Starożytne gruzińskie „Surtskani” składa się z dwóch części: „Sur” i „Tskani”, przy czym ta druga powinna być obecnym „tskali”, a pierwsza to samo „tskali” w formie awestyjskiej. W Zend Avesta, wśród dwudziestu ośmiu Yazatów, znany był „Ardavir-sur”, co oznacza „źródło niebiańskiej wody”.",
+    "3": "Ten sam Mihrakan. Pochodzi z panteonu mitraizmu zoroastryjskiego, gdzie był bóstwem światła, zgody i przysięgi.",
+    "4": "„Igrika” lub „Igrika”, prawdziwą formą podstawową jest „Igri”, „Igrisa”. W pogańskim panteonie Igri był bóstwem wody, które pojawia się również w micie Amirani jako Igri-Baton. Kwiecień to okres wylewów rzek, dlatego też ten miesiąc został nazwany na cześć boga wody. Nazwa rzeki Enguri również pochodzi od Igri. Samo słowo „Igri” powinno być modyfikacją słowa „areg”, które w języku ormiańskim oznacza słońce i w przenośni życie.",
+    "5": "Ten sam upadek. Istnieje przypuszczenie, że stara nazwa miesiąca powinna brzmieć Nanaisa – czyli bogini wielkiej matki, płodności i piękna, co odpowiadało rozpowszechnionej na starożytnym Wschodzie „Inanie”, Isztar i częściowo Rhei-Kybela, warto zauważyć, że jednym z ich symboli była rzeczywiście róża.",
+    "6": "Później było powszechnie znane jako Tibatve. K. Według Kekelidze „Mariali” to ormiański „Marer”.",
+    "7": "Później, jak zwykle, co tydzień. K. Według Kekelidze „Tibisa” (Ttue) to święte imię gruzińskie, wskazujące porę roku, w którym odbywa się koszenie.",
+    "8": "później popularnie znany jako Mariamobi. Może miesiąc Kueloba (miesiąc życzliwości). K. Według Kekelidze „Kueltobasa” (Ttue), rotacja mianownika – „Kueltoba”. Jego zdaniem błędem jest używanie nazwy jako „pod” „que” pierwszej części, a co za tym idzie tworzenie z niej „quele” i odwoływanie się do niej. Pierwotna forma to „Kue”, co nawiązuje do jednego z miesięcy irańskiego pogańskiego kalendarza „Farwardin”, podczas którego odbywało się święto podziemia – „Fravarta”.",
+    "9": "W Gruzji nowy rok rozpoczął się w tym miesiącu, dlatego według starego gruzińskiego kalendarza pogańskiego nazywa się on Akhalslisa, a w ludowej nazwie Enkenistve. Enkenoba było gruzińskim świętem świeckim, które w ubiegłych stuleciach obchodzono 26 września.  Enkenoba, podobnie jak Enkenya, stare potwierdzenie Enkenyi przekazywało swoje obowiązki nowym, a w Lechkhumi Enkenoba trwała cały miesiąc.",
+    "10": "Później nazywa się je winem. K. Według Kekelidze „Stulisa” (Ttue) to święta gruzińska nazwa miesiąca, w którym miały miejsce żniwa lub żniwa, czyli zbiór owoców.",
+    "11": "Później był powszechnie znany jako Giorgobi. K. Według Kekelidze powinno być „Tiriskani”, a nie „Tiriskoni”. Tiriskan dzieli się na części „tiri” i „skórę”. Pierwsza część „Tiris” to nazwa starego irańskiego miesiąca „Tiris”, od którego wywodzi się nazwa czwartego miesiąca nowoperskiego „Tir”, a także kapadockiego „Tirix-Τήρι-Τειρει” i ormiańskiego „ΤΡΕ” (tutaj jest to także czwarty miesiąc). Drugie zakończenie „kan” jest zakończeniem irańsko-ormiańskim, tak jak w irańskim „froti-kan”, później „froti-gan”, kapadockim „mitrakan”, ormiańskim „mehekan” i „ahekan”.",
+    "12": "później popularnie od czasów Chrystusa. K. Według Kekelidze powinno być „Tirisdini”, a nie „Tirisdeni”. Tyrisden jest podzielone na części „Tiris” i „Dean”. Pierwsza część „Tiris” to nazwa starego irańskiego miesiąca „Tiris”, od którego wywodzi się nazwa czwartego miesiąca nowoperskiego „Tir”, a także kapadockiego „Tirix-Τήρι-Τειρει” i ormiańskiego „ΤΡΕ” (tutaj jest to także czwarty miesiąc). Druga końcówka „din” to irańska końcówka nazwy miesiąca, np. Farvar-din."
+  },
+  "days": {
+    "0": "Poniedziałek",
+    "1": "Wtorek",
+    "2": "Środa",
+    "3": "Czwartek",
+    "4": "Piątek",
+    "5": "Sobota",
+    "6": "Niedziela"
+  },
+  "daysOld": {
+    "0": "dzień",
+    "1": "dzień",
+    "2": "Piątek",
+    "3": "dzień",
+    "4": "obudzę się",
+    "5": "Popołudnie",
+    "6": "Popołudnie"
+  },
+  "daysOldMeaning": {
+    "0": "dzień księżyca",
+    "1": "dzień wojny",
+    "2": "dzień rodzinny",
+    "3": "dzień nieba",
+    "4": "deszczowy dzień",
+    "5": "zmarłych",
+    "6": "niedziela"
+  },
+  "daysOldDescription": {
+    "0": "Pochodzi od Magrul-lazuri (Tutashkha/Tutachkha) na cześć bóstwa księżyca",
+    "1": "Pochodzi od Megrul-Svanur (Takhashkha/Takhash) na cześć boga wojny",
+    "2": "Pochodzi od Megrul-Lazur-Svanur (Jumashkha/Jumachkha/Jumash) na cześć bóstwa rodziny, płodności i żniw",
+    "3": "Pochodzi od Megrul-Svanur (tsaashkha/tsash) na cześć bóstwa nieba",
+    "4": "Pochodzi od Svanur-Megrul (Vebish/Obishkha) na cześć boga wody i deszczu",
+    "5": "Pochodzi od Megrul (Shuriszkha) – dzień upamiętnienia dusz zmarłych, na który wpływa żydowski szabat/sabat",
+    "6": "Pochodzi od Svanur-Megrul-Lazuri (Mishladegh/Zhashkha/Bzhachkha) na cześć boga słońca"
+  },
+  "daysKaldevelta": {
+    "0": "Bałwan śniegowy",
+    "1": "Arie",
+    "2": "Ermis",
+    "3": "Afrodyty",
+    "4": "z Dios",
+    "5": "z Kronosa",
+    "6": "słońca"
+  },
+  "label-months-in-old-georgian": "Miesiące w starym gruzińskim",
+  "label-days-in-old-georgian": "Dni tygodnia w starym gruzińskim",
+  "title": "alfabet ჻ Kalendarz gruziński"
+}
