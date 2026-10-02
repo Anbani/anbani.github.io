@@ -1,14 +1,14 @@
 # Anbani.ge
-> version 3.3
-> GH serving `./docs`  
-> API: https://api.anbani.ge  
+> version 4.0  
 > Production: https://anbani.ge  
-> Development: https://next.anbani.ge  
+> Beta: https://beta.anbani.ge  
+> Mirror: https://anbani.github.io (this repo's `gh-pages`, major releases only)  
 
 ## Release notes
 
 | Date | Version | Notes |
 |------|---------|-------|
+| 2026.Q3 | 4.0 | Redesigned UI (dark mode, card layouts); new bilingual Georgian [Emoji finder](https://anbani.ge/emoji); redesigned [Georgian Calendar](https://anbani.ge/calendar) with holidays; dockable [Virtual Keyboard](https://anbani.ge/keyboard); [Georgian Wordnet](https://anbani.ge/wordnet) served from a static lexicon; braille [TextArt](https://anbani.ge/textart); upgraded to `anbani` 2.4.0 and `anbani-textart` 1.6.0. anbani.ge moves to Cloudflare Pages (with [beta](https://beta.anbani.ge)); anbani.github.io mirrors major releases. |
 | 2025.Q2 | 3.4 | Upgraded to latest `anbani` and `anbani-textart` packages; Added analytics; |
 | 2022.Q2 | 3.3 | Added [Anbani Report](https://next.anbani.ge/ka/about) (public analytics dashboard assembled in Google Data Studio). Upgraded to [Anbani/TextArt 1.5.0](https://github.com/anbani/textart) with new fonts added! |
 | 2022.Q2 | 3.2 | Added [Georgian Wordnet](https://anbani.ge/wordnet) - an AI-enriched synonym and association lexicon (early public alpha release).  |
